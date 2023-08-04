@@ -1,0 +1,28 @@
+const playerFiltered = {
+    age: 1,
+    birth_date: 1,
+    college: 1,
+    depth_chart_order: 1,
+    espn_id: 1,
+    fantasy_data_id: 1,
+    first_name: 1,
+    full_name: 1,
+    height: 1,
+    high_school: 1,
+    number: 1,
+    player_id: 1,
+    position: 1,
+    position_rank: 1,
+    rank: 1,
+    rating: 1,
+    rotowire_id: 1,
+    sportradar_id: 1,
+    team: 1,
+    tier: 1,
+    trend: 1,
+    weight: 1,
+    yahoo_id: 1,
+    years_exp: 1,
+}
+
+module.exports = { playerFiltered }
