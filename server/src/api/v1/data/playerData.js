@@ -9,6 +9,7 @@ const playerFiltered = {
     full_name: 1,
     height: 1,
     high_school: 1,
+    last_name:1,
     number: 1,
     player_id: 1,
     position: 1,

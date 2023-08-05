@@ -24,6 +24,7 @@ const filterPlayerDataFromSleeper = (playerData) => {
             full_name: player.full_name,
             height: player.height,
             high_school: player.high_school,
+            last_name: player.last_name,
             number: player.number,
             player_id: player.player_id,
             position: player.position,

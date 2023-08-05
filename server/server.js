@@ -12,8 +12,8 @@ app.use(corsMiddleware);
 app.use(methodOverrideMiddleware);
 app.use(express.json());
 
-app.use("/owner", routes.ownerRoutes);
-app.use("/player", routes.playerRoutes);
+app.use("/owners", routes.ownerRoutes);
+app.use("/players", routes.playerRoutes);
 app.use("/league", routes.leagueRoutes);
 
 app.listen(port, () => {
