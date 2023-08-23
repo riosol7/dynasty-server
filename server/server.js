@@ -15,6 +15,7 @@ app.use(express.json());
 app.use("/owners", routes.ownerRoutes);
 app.use("/players", routes.playerRoutes);
 app.use("/league", routes.leagueRoutes);
+app.use("/scripts", routes.scriptRoutes);
 
 app.listen(port, () => {
     console.log(`DynastyDB is running on port ${port}`)

@@ -94,10 +94,10 @@ def main():
     # Create the "temp" folder if it doesn't exist
     os.makedirs(temp_directory, exist_ok=True)
     
-    csv_file_path = os.path.join(temp_directory, "player_data.csv")
+    csv_file_path = os.path.join(temp_directory, "kct.csv")
     with open(csv_file_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["rank", "player", "team", "position", "age", "tier", "trend", "rating"])
+        writer.writerow(["rank", "player", "team", "position", "age", "tier", "trend", "value"])
         writer.writerows(zip(ranks, player_names, team_names, positions, ages, tiers, trends, ratings))
 
 if __name__ == "__main__":

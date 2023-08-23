@@ -5,17 +5,21 @@ async function parseCSV(csvFilePath) {
     try {
         const data = [];
         const fileStream = fs.createReadStream(csvFilePath);
-        const parser = fileStream.pipe(csvParser());
+        const parser = fileStream.pipe(csvParser({separator: ',', quote: '"',}));
         for await (const row of parser) {
             data.push({
-                rank: row.rank,
-                player: row.player,
+                rank: row.rank || row.overallRank || null,
+                player: row.player || row.name,
                 team: row.team,
                 position: row.position,
+                positionRank: row.positionRank || null,
                 age: parseFloat(row.age),
-                tier: row.tier.trim(),
-                trend: row.trend.trim(),
-                rating: parseInt(row.rating),
+                tier: row.tier ? row.tier.trim() : null,
+                trend: row.trend ? row.trend.trim() : null || row.trend30day || null,
+                value: parseInt(row.value),
+                fantasycalcId: row.fantasycalcId || null,
+                sleeperId: row.sleeperId || null,
+                mflId: row.mflId || null,
             });
         }
         return data;
