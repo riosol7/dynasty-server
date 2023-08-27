@@ -1,10 +1,10 @@
-const KCT = require("./kctModel");
+const KTC = require("./ktcModel");
 const League = require("./leagueModel");
 const Owner = require("./ownerModel");
 const Player = require("./playerModel");
 
 module.exports = {
-    KCT,
+    KTC,
     League,
     Owner,
     Player,

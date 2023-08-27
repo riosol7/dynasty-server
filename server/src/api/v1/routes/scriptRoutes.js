@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { scriptController } = require("../controllers");
 
-router.get("/kct", scriptController.getKCT);
+router.get("/ktc", scriptController.getKTC);
 router.get("/superflex", scriptController.getSuperflex);
 router.get("/fantasy_calc", scriptController.getFantasyCalc);
 

@@ -1,7 +1,7 @@
 const { scriptHelpers } = require("../helpers");
 
-const queryListOfKCT = async () => {
-    return await scriptHelpers.executeScript('kct');
+const queryListOfKTC = async () => {
+    return await scriptHelpers.executeScript('ktc');
 };
 
 const queryListOfSF = async () => {
@@ -13,7 +13,7 @@ const queryListOfFC = async () => {
 }
 
 module.exports = {
-    queryListOfKCT,
+    queryListOfKTC,
     queryListOfSF,
     queryListOfFC,
 }

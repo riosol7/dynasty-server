@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const kctPlayerSchema = new mongoose.Schema({
+const ktcPlayerSchema = new mongoose.Schema({
     rank: String,
     player: String,
     team: String,
@@ -8,7 +8,8 @@ const kctPlayerSchema = new mongoose.Schema({
     age: String,
     tier: String,
     trend: String,
-    rating: String,
-    player_id: String
+    value: String,
+    player_id: String,
+    path: String,
 })
-module.exports = mongoose.model("KCT", kctPlayerSchema);
+module.exports = mongoose.model("KTC", ktcPlayerSchema);

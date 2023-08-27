@@ -4,7 +4,6 @@ const { fetchUpdatedPlayerData } = require("./playerHelpers");
 
 // FUTURE TASK:
 // Implement a condition to check if there are new users that are not in the DB by fetching user data.
-
 const getOwners = async () => {
     const owners = await Owner.find({}).lean();
     const [rosterData, players] = await Promise.all([
@@ -13,8 +12,9 @@ const getOwners = async () => {
     ]);
 
     const updatedOwners = await Promise.all(owners.map(async owner => {
-        let foundRoster = rosterData.find(roster => roster.roster_id === owner.roster_id);
-        return await getDynastyValue(foundRoster, owner, players);
+        const checkedOwnerAvatar = updateOwnerAvatar(owner);
+        const foundRoster = rosterData.find(roster => roster.roster_id === owner.roster_id);
+        return await getDynastyValue(foundRoster, checkedOwnerAvatar, players);
     }));
     return updatedOwners
 }
@@ -28,7 +28,7 @@ const getDynastyValue = async (roster, owner, players) => {
             (player) => roster.players.includes(player.player_id) && player.position === position
         );
 
-        const ratingSum = positionPlayers.reduce((acc, player) => acc + (player.rating || 0), 0);
+        const ratingSum = positionPlayers.reduce((acc, player) => acc + (player.value || 0), 0);
         ratings[`${position.toLowerCase()}Rating`] = ratingSum;
     }
 
@@ -36,6 +36,16 @@ const getDynastyValue = async (roster, owner, players) => {
     ratings['teamRating'] = teamRating;
 
     return await updateOwnerDynastyValue(owner, ratings);
+};
+
+const updateOwnerAvatar = async (owner) => {
+    const latestUsers = await sleeperAPI.fetchUsers();
+    const foundUser = latestUsers.find(user => user.user_id === owner.user_id);
+    if (foundUser.avatar !== owner.avatar) {
+        return await Owner.findOneAndUpdate({"user_id": foundUser.user_id},
+        { $set: { "avatar": foundUser.avatar }}, {new:true});
+    }; 
+    return owner;
 };
 
 const updateOwnerDynastyValue = async (owner, ratings) => {

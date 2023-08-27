@@ -22,7 +22,7 @@ def get_team_names_and_positions(soup):
 
     return team_names, positions
 
-def get_ratings(soup):
+def get_values(soup):
     raw_ratings = soup.select("div.value p")[1:]
     return [rating.get_text().strip() for rating in raw_ratings]
 
@@ -61,32 +61,38 @@ def get_trends(soup):
 def get_ranks(soup):
     return [rank.get_text() for rank in soup.select("div.rank-number p")][1:]
 
+def get_paths(soup):
+    path_elements = soup.select("div.player-name a")
+    return [path.get("href") for path in path_elements]
+
 def fetch_data(url):
     soup = get_soup(url)
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [
             executor.submit(get_team_names_and_positions, soup),
-            executor.submit(get_ratings, soup),
+            executor.submit(get_values, soup),
             executor.submit(get_ages, soup),
             executor.submit(get_tiers, soup),
             executor.submit(get_trends, soup),
-            executor.submit(get_ranks, soup)
+            executor.submit(get_ranks, soup),
+            executor.submit(get_paths, soup)
         ]
 
         team_names, positions = futures[0].result()
-        ratings = futures[1].result()
+        values = futures[1].result()
         ages = futures[2].result()
         tiers = futures[3].result()
         trends = futures[4].result()
         ranks = futures[5].result()
+        paths = futures[6].result()
 
     player_names = [player.get_text() for player in soup.select("div.player-name > p > a")]
 
-    return player_names, team_names, positions, ratings, ages, tiers, trends, ranks
+    return player_names, team_names, positions, values, ages, tiers, trends, ranks, paths
 
 def main():
     url = "https://keeptradecut.com/dynasty-rankings?filters=QB|WR|RB|TE|RDP"
-    player_names, team_names, positions, ratings, ages, tiers, trends, ranks = fetch_data(url)
+    player_names, team_names, positions, values, ages, tiers, trends, ranks, paths = fetch_data(url)
 
     # Save the data into a CSV file inside the "temp" folder
     temp_directory = os.path.join(os.path.dirname(__file__), "..", "temp")
@@ -94,11 +100,11 @@ def main():
     # Create the "temp" folder if it doesn't exist
     os.makedirs(temp_directory, exist_ok=True)
     
-    csv_file_path = os.path.join(temp_directory, "kct.csv")
+    csv_file_path = os.path.join(temp_directory, "ktc.csv")
     with open(csv_file_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["rank", "player", "team", "position", "age", "tier", "trend", "value"])
-        writer.writerows(zip(ranks, player_names, team_names, positions, ages, tiers, trends, ratings))
+        writer.writerow(["rank", "player", "team", "position", "age", "tier", "trend", "value", "path"])
+        writer.writerows(zip(ranks, player_names, team_names, positions, ages, tiers, trends, values, paths))
 
 if __name__ == "__main__":
     main()

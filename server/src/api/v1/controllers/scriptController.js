@@ -1,8 +1,8 @@
 const { scriptService } = require("../services");
 
-const getKCT = async (req, res) => {
-   const kctList = await scriptService.queryListOfKCT();
-    return res.json(kctList);
+const getKTC = async (req, res) => {
+   const ktcList = await scriptService.queryListOfKTC();
+    return res.json(ktcList);
 };
 
 const getSuperflex = async (req, res) => {
@@ -17,6 +17,6 @@ const getFantasyCalc = async (req, res) => {
 
 module.exports = {
     getFantasyCalc,
-    getKCT,
+    getKTC,
     getSuperflex,
 };

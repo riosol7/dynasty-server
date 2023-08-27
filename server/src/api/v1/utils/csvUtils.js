@@ -20,6 +20,7 @@ async function parseCSV(csvFilePath) {
                 fantasycalcId: row.fantasycalcId || null,
                 sleeperId: row.sleeperId || null,
                 mflId: row.mflId || null,
+                path: row.path || null,
             });
         }
         return data;

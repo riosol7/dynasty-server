@@ -2,11 +2,11 @@ const path = require("path");
 const NodeCache = require("node-cache");
 const cache = new NodeCache({ stdTTL: 60 * 60 }); // Cache data for 1 hour
 const { sleeperAPI } = require("../../../../api")
-const { csvUtils, pythonUtils } = require("../utils")
-const { KCT, Player } = require("../models")
+const { csvUtils, ktcUtils, pythonUtils } = require("../utils")
+const { KTC, Player } = require("../models")
 const validPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
 
-async function createKCTDataMap(csvData) {
+async function createKTCDataMap(csvData) {
     return new Map(csvData.map(item => [item.player, item]));
 }
 
@@ -30,12 +30,12 @@ const filterPlayerDataFromSleeper = (playerData) => {
             position: player.position,
             position_rank: player.position_rank,
             rank: player.rank,
-            rating: player.rating,
             rotowire_id: player.rotowire_id,
             sportradar_id: player.sportradar_id,
             team: player.team,
             tier: player.tier,
             trend: player.trend,
+            value: player.value,
             weight: player.weight,
             yahoo_id: player.yahoo_id,
             years_exp: player.years_exp,
@@ -43,25 +43,25 @@ const filterPlayerDataFromSleeper = (playerData) => {
 };
 
 const updatePlayerCollection = async (players) => {
-    await Player.deleteMany({});
+    await Player.collection.drop();
     await Player.insertMany(players);
 };
 
-const updateKCTCollection = async (csvData) => {
-    await KCT.deleteMany({});
-    await KCT.insertMany(csvData);
+const updateKTCCollection = async (csvData) => {
+    await KTC.deleteMany({});
+    await KTC.insertMany(csvData);
 };
 
-async function updatePlayersWithKCTData(players, kctDataMap) {
+async function updatePlayersWithKTCData(players, ktcDataMap) {
     for (const player of players) {
-        const foundKCTPlayer = kctDataMap.get(player.full_name);
-        if (foundKCTPlayer) {
-            player.age = foundKCTPlayer.age || player.age;
-            player.rank = foundKCTPlayer.rank || player.rank;
-            player.position_rank = foundKCTPlayer.position || player.position_rank;
-            player.rating = foundKCTPlayer.rating || player.rating;
-            player.tier = foundKCTPlayer.tier || player.tier;
-            player.trend = foundKCTPlayer.trend || player.trend;
+        const foundKTCPlayer = ktcDataMap.get(player.full_name);
+        if (foundKTCPlayer) {
+            player.age = foundKTCPlayer.age || player.age;
+            player.rank = foundKTCPlayer.rank || player.rank;
+            player.position_rank = foundKTCPlayer.position || player.position_rank;
+            player.value = foundKTCPlayer.value || player.value;
+            player.tier = foundKTCPlayer.tier || player.tier;
+            player.trend = foundKTCPlayer.trend || player.trend;
         }
     }
     return players;
@@ -69,11 +69,11 @@ async function updatePlayersWithKCTData(players, kctDataMap) {
 
 async function insertPlayerDataIntoMongoDB(players,csvData) {
     try {
-        const [_, kctDataMap] = await Promise.all([
-            updateKCTCollection(csvData),
-            createKCTDataMap(csvData)
+        const [_, ktcDataMap] = await Promise.all([
+            updateKTCCollection(csvData),
+            createKTCDataMap(csvData)
         ]);
-        const updatedPlayers = await updatePlayersWithKCTData(players, kctDataMap);
+        const updatedPlayers = await updatePlayersWithKTCData(players, ktcDataMap);
         await updatePlayerCollection(updatedPlayers)
         console.log('Data inserted successfully');
         return updatedPlayers;
@@ -85,23 +85,33 @@ async function insertPlayerDataIntoMongoDB(players,csvData) {
 }
 
 async function fetchUpdatedPlayerData() {
-    const csvFilePath = path.join(__dirname, '../../../../temp/player_data.csv');
+    const csvFilePath = path.join(__dirname, '../../../../temp/ktc.csv');
 
     try {
         let updatedPlayersData = cache.get('updatedPlayersData');
     
         if (!updatedPlayersData) {
-            const [playerData, _] = await Promise.all([sleeperAPI.fetchPlayerData(),pythonUtils.executeKCTRankingsScript()])
+            const [playerData, _] = await Promise.all([sleeperAPI.fetchPlayerData(),pythonUtils.executePythonScript('ktc.py')])
             const [filteredPlayers, csvData] = await Promise.all([filterPlayerDataFromSleeper(playerData), csvUtils.parseCSV(csvFilePath)]);
             updatedPlayersData = await insertPlayerDataIntoMongoDB(filteredPlayers, csvData);
             cache.set('updatedPlayersData', updatedPlayersData);
-        }
+        };
         return updatedPlayersData;
     } catch (err) {
         throw err;
     }
 }
 
+const scrapeKTCPlayerValues = async (path) => {
+    let data = cache.get(`${path}`);
+    if(!data) {
+        data = ktcUtils.getKTCPlayerValues(path);
+        cache.set(`${path}`, data);
+    };
+    return data;
+}
+
 module.exports = {
     fetchUpdatedPlayerData,
+    scrapeKTCPlayerValues,
 };
