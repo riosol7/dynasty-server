@@ -2,7 +2,7 @@ const { playerHelpers } = require("../helpers");
 const { sleeperAPI } = require("../../../../api");
 
 const queryListOfPlayers = async () => {
-    return await playerHelpers.fetchUpdatedPlayerData();
+    return await playerHelpers.fetchPlayerData();
 }
 
 const queryListOfRosters = async () => {

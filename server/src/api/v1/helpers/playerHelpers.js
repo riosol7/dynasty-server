@@ -111,7 +111,19 @@ const scrapeKTCPlayerValues = async (path) => {
     return data;
 }
 
+const fetchPlayerData = async () => {
+    let filteredPlayerData = cache.get('filteredPlayerData');
+    
+    if (!filteredPlayerData) {
+        const playerData = await sleeperAPI.fetchPlayerData()
+        filteredPlayerData = await filterPlayerDataFromSleeper(playerData);
+        cache.set('filteredPlayerData', filteredPlayerData);
+    };
+    return filteredPlayerData;
+};
+
 module.exports = {
+    fetchPlayerData,
     fetchUpdatedPlayerData,
     scrapeKTCPlayerValues,
 };
