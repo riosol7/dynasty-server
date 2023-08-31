@@ -1,12 +1,7 @@
 const { playerHelpers } = require("../helpers");
-const { sleeperAPI } = require("../../../../api");
 
 const queryListOfPlayers = async () => {
     return await playerHelpers.fetchPlayerData();
-}
-
-const queryListOfRosters = async () => {
-    return await await sleeperAPI.fetchRosterData();
 }
 
 const queryListOfKTCValues = async (path) => {
@@ -16,5 +11,4 @@ const queryListOfKTCValues = async (path) => {
 module.exports = {
     queryListOfKTCValues,
     queryListOfPlayers,
-    queryListOfRosters,
 }

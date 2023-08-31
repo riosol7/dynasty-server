@@ -11,7 +11,13 @@ const getOwnerById = async (req, res) => {
     return res.json(owner)
 }
 
+const getRosters = async (req, res) => {
+    const rosterList = await ownerService.queryListOfRosters();
+    return res.json(rosterList);
+};
+
 module.exports = {
     getOwners,
     getOwnerById,
+    getRosters,
 }
