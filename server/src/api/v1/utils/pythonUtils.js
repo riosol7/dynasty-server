@@ -9,7 +9,9 @@ async function executePythonScript(filename) {
                 console.log('Python script executed successfully');
                 resolve();
             } else {
-                reject(new Error('Error executing Python script'));
+                const error = new Error('Error executing Python script');
+                console.error('Python script execution error:', error);
+                reject(error);
             }
         });
     });

@@ -1,6 +1,6 @@
 const { Owner } = require("../models")
 const { sleeperAPI } = require("../../../../api")
-const { fetchUpdatedPlayerData } = require("./playerHelpers");
+const { fetchUpdatedKTCPlayerData } = require("./playerHelpers");
 
 // FUTURE TASK:
 // Implement a condition to check if there are new users that are not in the DB by fetching user data.
@@ -8,7 +8,7 @@ const getOwners = async () => {
     const owners = await Owner.find({}).lean();
     const [rosterData, players] = await Promise.all([
         sleeperAPI.fetchRosterData(),
-        fetchUpdatedPlayerData(),
+        fetchUpdatedKTCPlayerData(),
     ]);
 
     const updatedOwners = await Promise.all(owners.map(async owner => {

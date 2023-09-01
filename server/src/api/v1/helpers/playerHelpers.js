@@ -2,7 +2,7 @@ const path = require("path");
 const NodeCache = require("node-cache");
 const cache = new NodeCache({ stdTTL: 60 * 60 }); // Cache data for 1 hour
 const { sleeperAPI } = require("../../../../api")
-const { csvUtils, ktcUtils, pythonUtils } = require("../utils")
+const { csvUtils, ktcUtils, pythonUtils, ktcDynasty, fantasyCalcUtils } = require("../utils")
 const { KTC, Player } = require("../models")
 const validPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
 
@@ -52,9 +52,12 @@ const updateKTCCollection = async (csvData) => {
     await KTC.insertMany(csvData);
 };
 
-async function updatePlayersWithKTCData(players, ktcDataMap) {
-    for (const player of players) {
-        const foundKTCPlayer = ktcDataMap.get(player.full_name);
+async function updatePlayersWithKTCData(players, ktcData) {
+    const validPositions = ["QB", "RB", "WR", "TE"];
+    const filteredPlayers = players.filter((player) => validPositions.includes(player.position) && player.team !== null && player.depth_chart_order !== null); // Removed kickers & unemployed players;
+
+    for (const player of filteredPlayers) {
+        const foundKTCPlayer = ktcData.find(ktcPlayer => ktcPlayer.player === player.full_name);
         if (foundKTCPlayer) {
             player.age = foundKTCPlayer.age || player.age;
             player.rank = foundKTCPlayer.rank || player.rank;
@@ -102,10 +105,10 @@ async function fetchUpdatedPlayerData() {
     }
 }
 
-const scrapeKTCPlayerValues = async (path) => {
+const getKTCPlayerValues = async (path) => {
     let data = cache.get(`${path}`);
     if(!data) {
-        data = ktcUtils.getKTCPlayerValues(path);
+        data = ktcUtils.scrapeKTCPlayerValues(path);
         cache.set(`${path}`, data);
     };
     return data;
@@ -122,8 +125,60 @@ const fetchPlayerData = async () => {
     return filteredPlayerData;
 };
 
+// NEW
+async function fetchUpdatedKTCPlayerData() {
+    try {
+        let updatedPlayersData = cache.get('updatedKTCPlayersData');
+    
+        if (!updatedPlayersData) {
+            const [playerData, ktcData] = await Promise.all([sleeperAPI.fetchPlayerData(), ktcDynasty.scrapeKTCDynastyRankings() ])
+            const filteredPlayers = await filterPlayerDataFromSleeper(playerData);
+            updatedPlayersData = await updatePlayersWithKTCData(filteredPlayers, ktcData);
+            cache.set('updatedKTCPlayersData', updatedPlayersData);
+        };
+        return updatedPlayersData;
+    } catch (err) {
+        throw err;
+    }
+}
+
+const scrapeListOfKTCDynastyRankings = async () => {
+    try {
+        let data = cache.get(`ktcRankings`);
+        if(!data) {
+            data = await ktcDynasty.scrapeKTCDynastyRankings();
+            cache.set(`ktcRankings`, data);
+        };
+
+        return data;
+
+    } catch (error) {
+        console.error('Error in scrapeListOfKTCDynastyRankings:', error);
+        throw error;
+    };
+};
+
+const scrapeListOfFantasyCalcRankings = async () => {
+    try {
+        let data = cache.get(`fcRankings`);
+        if(!data) {
+            data = await fantasyCalcUtils.scrapeFantasyCalcRankings();
+            cache.set(`fcRankings`, data);
+        };
+
+        return data;
+
+    } catch (error) {
+        console.error('Error in scrapeListOfFantasyCalcRankings:', error);
+        throw error;
+    };
+};
+
 module.exports = {
     fetchPlayerData,
     fetchUpdatedPlayerData,
-    scrapeKTCPlayerValues,
+    fetchUpdatedKTCPlayerData,
+    getKTCPlayerValues,
+    scrapeListOfKTCDynastyRankings,
+    scrapeListOfFantasyCalcRankings,
 };

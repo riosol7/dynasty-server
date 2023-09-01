@@ -51,9 +51,9 @@ def get_trends(soup):
         if trend.startswith("0"):
             raw_trends.append(trend)
         elif "trend-up" in trend_element.get('class', []):
-            raw_trends.append(trend + "u")
+            raw_trends.append(trend + "+")
         elif "trend-down" in trend_element.get('class', []):
-            raw_trends.append(trend + "d")
+            raw_trends.append(trend + "-")
         else:
             raw_trends.append(trend)
     return raw_trends[2:]

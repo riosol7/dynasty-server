@@ -21,7 +21,7 @@ url = "https://www.fantasycalc.com/dynasty-rankings"
 driver.get(url)
 
 # Wait for the download icon to become clickable
-wait = WebDriverWait(driver, 9)
+wait = WebDriverWait(driver, 10)
 download_icon = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "download-icon")))
 
 if download_icon:
@@ -35,11 +35,13 @@ if download_icon:
     # Find the downloaded file with the default name
     downloaded_file_name = [fname for fname in os.listdir() if fname.startswith("fantasycalc_dynasty_rankings")][0]
 
+    # Specify the absolute path for the temp directory within your project's structure
+    temp_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "temp")
+
     # Ensure that the temporary directory exists
-    temp_directory = os.path.join(os.path.dirname(__file__), "..", "temp")
     os.makedirs(temp_directory, exist_ok=True)
 
-    # Move the downloaded file to the "temp" directory with the desired name
+    # Construct the absolute paths for source and destination files
     downloaded_file_path = os.path.join(os.getcwd(), downloaded_file_name)
     temp_file_path = os.path.join(temp_directory, "fantasy_calc.csv")
 
@@ -52,9 +54,12 @@ if download_icon:
             # Write the header row with the desired column names
             writer.writerow(["name", "team", "position", "age", "fantasycalcId", "sleeperId", "mflId", "value", "overallRank", "positionRank", "trend30day"])
             
-            # Skip the header row in the input CSV
-            next(reader)
-            
+            # Skip the header row in the input CSV if it's not empty
+            first_row = next(reader, None)
+            if first_row:
+                # The input CSV has a header row, so skip it
+                pass
+
             # Copy the data from the input CSV to the output CSV with ',' delimiter
             for row in reader:
                 writer.writerow(row)

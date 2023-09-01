@@ -1,583 +1,583 @@
 rank,player,position,positionRank,team,age,value
 1,Patrick Mahomes,QB,QB 1,KC,27,9999
-2,Josh Allen,QB,QB 2,BUF,27,9449
-3,Jalen Hurts,QB,QB 3,PHI,24,8828
-4,Justin Jefferson,WR,WR 1,MIN,23,8651
-5,Joe Burrow,QB,QB 4,CIN,26,8391
-6,Ja'Marr Chase,WR,WR 2,CIN,23,8239
-7,Justin Herbert,QB,QB 5,LAC,25,7777
+2,Josh Allen,QB,QB 2,BUF,27,9407
+3,Justin Jefferson,WR,WR 1,MIN,23,8984
+4,Jalen Hurts,QB,QB 3,PHI,24,8932
+5,Joe Burrow,QB,QB 4,CIN,26,8453
+6,Ja'Marr Chase,WR,WR 2,CIN,23,8356
+7,Justin Herbert,QB,QB 5,LAC,25,7908
 8,Bijan Robinson,RB,RB 1,ATL,21,7544
-9,2023 Round 1 Pick 1,Pick,Pick 1,-,0,7406
-10,Lamar Jackson,QB,QB 6,BAL,26,7328
-11,Trevor Lawrence,QB,QB 7,JAX,23,7233
-12,CeeDee Lamb,WR,WR 3,DAL,24,6653
-13,Justin Fields,QB,QB 8,CHI,24,6616
-14,Garrett Wilson,WR,WR 4,NYJ,22,6496
-15,A.J. Brown,WR,WR 5,PHI,25,6218
-16,2023 Round 1 Pick 2,Pick,Pick 2,-,0,6051
-17,2023 Early 1st,Pick,Pick 3,-,0,6018
-18,Christian McCaffrey,RB,RB 2,SF,26,5966
-19,Amon-Ra St. Brown,WR,WR 6,DET,23,5819
-20,Jaylen Waddle,WR,WR 7,MIA,24,5745
-21,Breece Hall,RB,RB 3,NYJ,22,5544
-22,2024 Early 1st,Pick,Pick 4,-,0,5520
-23,2023 Round 1 Pick 3,Pick,Pick 5,-,0,5316
-24,Chris Olave,WR,WR 8,NO,22,5284
+9,2023 Round 1 Pick 1,Pick,Pick 1,-,0,7512
+10,Trevor Lawrence,QB,QB 6,JAX,23,7399
+11,Lamar Jackson,QB,QB 7,BAL,26,7285
+12,CeeDee Lamb,WR,WR 3,DAL,24,6840
+13,Garrett Wilson,WR,WR 4,NYJ,22,6683
+14,Justin Fields,QB,QB 8,CHI,24,6532
+15,A.J. Brown,WR,WR 5,PHI,25,6215
+16,Christian McCaffrey,RB,RB 2,SF,26,6173
+17,2023 Round 1 Pick 2,Pick,Pick 2,-,0,6135
+18,2023 Early 1st,Pick,Pick 3,-,0,6065
+19,Amon-Ra St. Brown,WR,WR 6,DET,23,6043
+20,Jaylen Waddle,WR,WR 7,MIA,24,5812
+21,2024 Early 1st,Pick,Pick 4,-,0,5762
+22,Chris Olave,WR,WR 8,NO,22,5578
+23,2023 Round 1 Pick 3,Pick,Pick 5,-,0,5395
+24,Breece Hall,RB,RB 3,NYJ,22,5389
 25,Anthony Richardson,QB,QB 9,IND,21,5233
-26,Saquon Barkley,RB,RB 4,NYG,26,5166
-27,Jahmyr Gibbs,RB,RB 5,DET,21,5086
-28,Tyreek Hill,WR,WR 9,MIA,29,4908
-29,Deshaun Watson,QB,QB 10,CLE,27,4862
-30,Jonathan Taylor,RB,RB 6,IND,24,4828
-31,2023 Round 1 Pick 4,Pick,Pick 6,-,0,4720
-32,Stefon Diggs,WR,WR 10,BUF,29,4565
-33,Travis Kelce,TE,TE 1,KC,33,4541
-34,DeVonta Smith,WR,WR 11,PHI,24,4519
-35,Mark Andrews,TE,TE 2,BAL,27,4439
-36,Tee Higgins,WR,WR 12,CIN,24,4408
+26,Saquon Barkley,RB,RB 4,NYG,26,5193
+27,Tyreek Hill,WR,WR 9,MIA,29,5191
+28,Jahmyr Gibbs,RB,RB 5,DET,21,5086
+29,DeVonta Smith,WR,WR 10,PHI,24,4888
+30,Deshaun Watson,QB,QB 10,CLE,27,4799
+31,2023 Round 1 Pick 4,Pick,Pick 6,-,0,4795
+32,Travis Kelce,TE,TE 1,KC,33,4776
+33,Jonathan Taylor,RB,RB 6,IND,24,4770
+34,Stefon Diggs,WR,WR 11,BUF,29,4675
+35,Mark Andrews,TE,TE 2,BAL,27,4522
+36,Tee Higgins,WR,WR 12,CIN,24,4429
 37,Bryce Young,QB,QB 11,CAR,21,4402
-38,Drake London,WR,WR 13,ATL,21,4374
-39,Josh Jacobs,RB,RB 7,LV,25,4288
-40,Kyle Pitts,TE,TE 3,ATL,22,4282
-41,DK Metcalf,WR,WR 14,SEA,25,4249
-42,Dak Prescott,QB,QB 12,DAL,29,4229
-43,Jaxon Smith-Njigba,WR,WR 15,SEA,21,4203
-44,2023 Round 1 Pick 5,Pick,Pick 7,-,0,4189
-45,Cooper Kupp,WR,WR 16,LAR,29,4121
-46,C.J. Stroud,QB,QB 13,HOU,21,4093
-47,Travis Etienne,RB,RB 8,JAX,24,4080
-48,Tua Tagovailoa,QB,QB 14,MIA,25,4058
-49,Kyler Murray,QB,QB 15,ARI,25,4032
-50,Nick Chubb,RB,RB 9,CLE,27,3980
-51,Tony Pollard,RB,RB 10,DAL,26,3979
-52,Kenneth Walker,RB,RB 11,SEA,22,3978
-53,Austin Ekeler,RB,RB 12,LAC,28,3900
-54,Davante Adams,WR,WR 17,LV,30,3756
-55,2023 Round 1 Pick 6,Pick,Pick 8,-,0,3736
-56,Daniel Jones,QB,QB 16,NYG,26,3605
-57,Najee Harris,RB,RB 13,PIT,25,3466
-58,Rhamondre Stevenson,RB,RB 14,NE,25,3441
-59,2023 Mid 1st,Pick,Pick 9,-,0,3411
-60,2023 Round 1 Pick 7,Pick,Pick 10,-,0,3297
-61,DJ Moore,WR,WR 18,CHI,26,3253
-62,T.J. Hockenson,TE,TE 4,MIN,25,3240
-63,Christian Watson,WR,WR 19,GB,24,3157
-64,Javonte Williams,RB,RB 15,DEN,23,3112
-65,Jordan Addison,WR,WR 20,MIN,21,3025
-66,Brandon Aiyuk,WR,WR 21,SF,25,2943
-67,2023 Round 1 Pick 8,Pick,Pick 11,-,0,2940
-68,Jerry Jeudy,WR,WR 22,DEN,24,2895
-69,Deebo Samuel,WR,WR 23,SF,27,2880
-70,2024 Mid 1st,Pick,Pick 12,-,0,2834
-71,Derrick Henry,RB,RB 16,TEN,29,2734
-72,Quentin Johnston,WR,WR 24,LAC,21,2642
-73,Chris Godwin,WR,WR 25,TB,27,2638
-74,2023 Round 1 Pick 9,Pick,Pick 13,-,0,2605
-75,Terry McLaurin,WR,WR 26,WAS,27,2592
-76,Michael Pittman,WR,WR 27,IND,25,2578
-77,2023 Late 1st,Pick,Pick 14,-,0,2576
-78,Jahan Dotson,WR,WR 28,WAS,23,2551
-79,Kenny Pickett,QB,QB 17,PIT,24,2532
-80,Jared Goff,QB,QB 18,DET,28,2513
-81,George Pickens,WR,WR 29,PIT,22,2484
-82,Dameon Pierce,RB,RB 17,HOU,23,2480
-83,J.K. Dobbins,RB,RB 18,BAL,24,2447
-84,George Kittle,TE,TE 5,SF,29,2366
-85,Treylon Burks,WR,WR 30,TEN,23,2357
-86,Kirk Cousins,QB,QB 19,MIN,34,2346
-87,2023 Round 1 Pick 10,Pick,Pick 15,-,0,2316
-88,2025 Mid 1st,Pick,Pick 16,-,0,2291
-89,Calvin Ridley,WR,WR 31,JAX,28,2268
-90,Jameson Williams,WR,WR 32,DET,22,2258
-91,Geno Smith,QB,QB 20,SEA,32,2213
-92,Jordan Love,QB,QB 21,GB,24,2201
-93,Diontae Johnson,WR,WR 33,PIT,26,2168
-94,Zay Flowers,WR,WR 34,BAL,22,2158
-95,D'Andre Swift,RB,RB 19,PHI,24,2139
-96,2024 Late 1st,Pick,Pick 17,-,0,2139
-97,Dallas Goedert,TE,TE 6,PHI,28,2114
-98,Russell Wilson,QB,QB 22,DEN,34,2099
-99,Rachaad White,RB,RB 20,TB,24,2087
-100,2023 Round 1 Pick 11,Pick,Pick 18,-,0,2049
-101,Miles Sanders,RB,RB 21,CAR,26,2035
-102,Marquise Brown,WR,WR 35,ARI,25,2017
-103,Amari Cooper,WR,WR 36,CLE,28,2002
-104,Aaron Jones,RB,RB 22,GB,28,1977
-105,Christian Kirk,WR,WR 37,JAX,26,1930
-106,Joe Mixon,RB,RB 23,CIN,26,1920
-107,Derek Carr,QB,QB 23,NO,32,1890
-108,Cam Akers,RB,RB 24,LAR,23,1875
-109,Dalton Kincaid,TE,TE 7,BUF,23,1836
-110,Zach Charbonnet,RB,RB 25,SEA,22,1815
-111,2023 Round 1 Pick 12,Pick,Pick 19,-,0,1809
-112,Aaron Rodgers,QB,QB 24,NYJ,39,1773
-113,Gabe Davis,WR,WR 38,BUF,24,1727
-114,Pat Freiermuth,TE,TE 8,PIT,24,1714
-115,Brock Purdy,QB,QB 25,SF,23,1706
-116,James Cook,RB,RB 26,BUF,23,1659
-117,David Montgomery,RB,RB 27,DET,25,1632
-118,Isiah Pacheco,RB,RB 28,KC,23,1629
-119,2023 Round 2 Pick 1,Pick,Pick 20,-,0,1602
-120,2023 Early 2nd,Pick,Pick 21,-,0,1567
-121,Devon Achane,RB,RB 29,MIA,21,1525
-122,Dalvin Cook,RB,RB 30,MIN,27,1512
-123,DeAndre Hopkins,WR,WR 39,-,30,1465
-124,Keenan Allen,WR,WR 40,LAC,31,1440
-125,Kendre Miller,RB,RB 31,NO,20,1427
-126,Mike Williams,WR,WR 41,-,31,1424
-127,Mike Williams,WR,WR 41,LAC,28,1424
-128,2023 Round 2 Pick 2,Pick,Pick 22,-,0,1422
-129,Mike Evans,WR,WR 43,TB,29,1354
-130,Rashod Bateman,WR,WR 44,BAL,23,1353
-131,Mac Jones,QB,QB 26,NE,24,1306
-132,Alvin Kamara,RB,RB 32,NO,27,1294
-133,Trey Lance,QB,QB 27,SF,23,1275
-134,Alexander Mattison,RB,RB 33,MIN,24,1268
-135,2023 Round 2 Pick 3,Pick,Pick 23,-,0,1251
-136,2024 Early 2nd,Pick,Pick 24,-,0,1239
-137,AJ Dillon,RB,RB 34,GB,25,1229
-138,Elijah Moore,WR,WR 45,CLE,23,1217
-139,David Njoku,TE,TE 9,CLE,26,1196
-140,Darren Waller,TE,TE 10,NYG,30,1167
-141,Khalil Herbert,RB,RB 35,CHI,25,1149
-142,Evan Engram,TE,TE 11,JAX,28,1132
-143,Kadarius Toney,WR,WR 46,KC,24,1120
-144,2023 Round 2 Pick 4,Pick,Pick 25,-,0,1112
-145,Brian Robinson,RB,RB 36,WAS,24,1068
-146,Sam LaPorta,TE,TE 12,DET,22,1061
-147,Tyler Lockett,WR,WR 47,SEA,30,1044
-148,Roschon Johnson,RB,RB 37,CHI,22,1038
-149,Michael Mayer,TE,TE 13,LV,21,1031
-150,Antonio Gibson,RB,RB 38,WAS,24,996
-151,Greg Dulcich,TE,TE 14,DEN,23,990
-152,Will Levis,QB,QB 28,TEN,23,988
-153,Desmond Ridder,QB,QB 29,ATL,23,987
-154,2023 Round 2 Pick 5,Pick,Pick 26,-,0,979
-155,Sam Howell,QB,QB 30,WAS,22,930
-156,Courtland Sutton,WR,WR 48,DEN,27,925
-157,Matthew Stafford,QB,QB 31,LAR,35,912
-158,Tank Bigsby,RB,RB 39,JAX,21,911
-159,2023 Mid 2nd,Pick,Pick 27,-,0,890
-160,James Conner,RB,RB 40,ARI,28,883
-161,Tyler Allgeier,RB,RB 41,ATL,23,876
-162,Marvin Mims,WR,WR 49,DEN,21,871
-163,2023 Round 2 Pick 6,Pick,Pick 28,-,0,866
-164,Skyy Moore,WR,WR 50,KC,22,866
-165,Jonathan Mingo,WR,WR 50,CAR,22,866
-166,Jayden Reed,WR,WR 52,GB,23,815
-167,Jimmy Garoppolo,QB,QB 32,LV,31,813
-168,JuJu Smith-Schuster,WR,WR 53,NE,26,794
-169,2023 Round 2 Pick 7,Pick,Pick 29,-,0,766
-170,Tyjae Spears,RB,RB 42,TEN,21,757
-171,Cole Kmet,TE,TE 15,CHI,24,749
-172,Josh Downs,WR,WR 54,IND,21,748
-173,Jakobi Meyers,WR,WR 55,LV,26,718
-174,Jamaal Williams,RB,RB 43,NO,28,714
-175,Rashee Rice,WR,WR 56,KC,23,700
-176,Chigoziem Okonkwo,TE,TE 16,TEN,23,694
-177,2024 Mid 2nd,Pick,Pick 30,-,0,681
-178,2023 Round 2 Pick 8,Pick,Pick 31,-,0,676
-179,Dalton Schultz,TE,TE 17,HOU,26,651
-180,Brandin Cooks,WR,WR 57,DAL,29,642
-181,Darnell Mooney,WR,WR 58,CHI,25,612
-182,Damien Harris,RB,RB 44,BUF,26,598
-183,2023 Round 2 Pick 9,Pick,Pick 32,-,0,597
-184,Trey McBride,TE,TE 18,ARI,23,596
-185,Wan'Dale Robinson,WR,WR 59,NYG,22,587
-186,2023 Late 2nd,Pick,Pick 33,-,0,585
-187,Jalin Hyatt,WR,WR 60,NYG,21,567
-188,Rashaad Penny,RB,RB 45,PHI,27,565
-189,2025 Mid 2nd,Pick,Pick 34,-,0,557
-190,Rondale Moore,WR,WR 61,ARI,22,555
-191,Elijah Mitchell,RB,RB 46,SF,25,536
-192,2023 Round 2 Pick 10,Pick,Pick 35,-,0,528
-193,Chase Brown,RB,RB 47,CIN,23,516
-194,Alec Pierce,WR,WR 62,IND,23,493
-195,Ryan Tannehill,QB,QB 33,TEN,34,483
-196,Hendon Hooker,QB,QB 34,DET,25,482
-197,Kenneth Gainwell,RB,RB 48,PHI,24,480
-198,2023 Round 2 Pick 11,Pick,Pick 36,-,0,464
-199,Luke Musgrave,TE,TE 19,GB,22,448
-200,Romeo Doubs,WR,WR 63,GB,23,444
-201,2024 Late 2nd,Pick,Pick 37,-,0,428
-202,Devin Singletary,RB,RB 49,HOU,25,427
-203,Nico Collins,WR,WR 64,HOU,24,425
-204,Samaje Perine,RB,RB 50,DEN,27,412
-205,2023 Round 2 Pick 12,Pick,Pick 38,-,0,411
-206,Chase Claypool,WR,WR 65,CHI,24,382
-207,Donovan Peoples-Jones,WR,WR 66,CLE,24,376
-208,Israel Abanikanda,RB,RB 51,NYJ,20,369
-209,John Metchie,WR,WR 67,HOU,22,367
-210,2023 Round 3 Pick 1,Pick,Pick 39,-,0,363
-211,2023 Early 3rd,Pick,Pick 40,-,0,357
-212,Jaylen Warren,RB,RB 52,PIT,24,354
-213,Isaiah Likely,TE,TE 20,BAL,23,351
-214,Michael Thomas,WR,WR 68,NO,30,344
-215,Baker Mayfield,QB,QB 35,TB,28,335
-216,Cedric Tillman,WR,WR 69,CLE,23,334
-217,Tyler Boyd,WR,WR 70,CIN,28,324
-218,Allen Lazard,WR,WR 70,NYJ,27,324
-219,2023 Round 3 Pick 2,Pick,Pick 41,-,0,319
-220,Noah Fant,TE,TE 21,SEA,25,317
-221,Zach Evans,RB,RB 53,LAR,22,308
-222,DJ Chark,WR,WR 72,CAR,26,308
-223,D'Onta Foreman,RB,RB 54,CHI,27,293
-224,Juwan Johnson,TE,TE 22,NO,26,292
-225,Kareem Hunt,RB,RB 55,-,27,292
-226,Ezekiel Elliott,RB,RB 56,-,27,291
-227,2023 Round 3 Pick 3,Pick,Pick 42,-,0,283
-228,Dawson Knox,TE,TE 23,BUF,26,266
-229,Joshua Palmer,WR,WR 73,LAC,23,255
-230,2023 Round 3 Pick 4,Pick,Pick 43,-,0,251
-231,2024 Early 3rd,Pick,Pick 43,-,0,251
-232,Zay Jones,WR,WR 74,JAX,28,244
-233,Michael Gallup,WR,WR 75,DAL,27,243
-234,Jelani Woods,TE,TE 24,IND,24,240
-235,Kyle Trask,QB,QB 36,TB,25,238
-236,Michael Carter,RB,RB 57,NYJ,24,232
-237,Curtis Samuel,WR,WR 76,WAS,26,231
-238,Mike Gesicki,TE,TE 25,NE,27,230
-239,Clyde Edwards-Helaire,RB,RB 58,KC,24,225
-240,2023 Round 3 Pick 5,Pick,Pick 45,-,0,222
-241,Isaiah Hodgins,WR,WR 77,NYG,24,218
-242,Jeff Wilson,RB,RB 59,MIA,27,217
-243,2023 Mid 3rd,Pick,Pick 46,-,0,216
-244,Hunter Renfrow,WR,WR 78,LV,27,216
-245,Terrace Marshall,WR,WR 79,CAR,22,213
-246,K.J. Osborn,WR,WR 80,MIN,25,202
-247,Tank Dell,WR,WR 80,HOU,23,202
-248,2023 Round 3 Pick 6,Pick,Pick 47,-,0,198
-249,Michael Wilson,WR,WR 82,ARI,23,197
-250,Irv Smith,TE,TE 26,CIN,24,195
-251,Rashid Shaheed,WR,WR 83,NO,24,193
-252,DeWayne McBride,RB,RB 60,MIN,21,192
-253,Odell Beckham,WR,WR 84,BAL,30,190
-254,Leonard Fournette,RB,RB 61,-,28,188
-255,Tyquan Thornton,WR,WR 85,NE,22,185
-256,Chuba Hubbard,RB,RB 62,CAR,23,184
-257,Zamir White,RB,RB 63,LV,23,179
-258,Khalil Shakir,WR,WR 86,BUF,23,177
-259,Sam Darnold,QB,QB 37,SF,25,176
-260,2023 Round 3 Pick 7,Pick,Pick 48,-,0,176
-261,Evan Hull,RB,RB 64,IND,22,170
-262,Jerome Ford,RB,RB 65,CLE,23,167
-263,Gerald Everett,TE,TE 27,LAC,28,166
-264,Luke Schoonmaker,TE,TE 27,DAL,24,166
-265,Tyler Huntley,QB,QB 38,BAL,25,166
-266,Adam Thielen,WR,WR 87,CAR,32,164
-267,Tyler Higbee,TE,TE 29,LAR,30,158
-268,Malik Willis,QB,QB 39,TEN,24,157
-269,Eric Gray,RB,RB 66,NYG,23,157
-270,2023 Round 3 Pick 8,Pick,Pick 49,-,0,156
-271,2024 Mid 3rd,Pick,Pick 50,-,0,150
-272,Gardner Minshew,QB,QB 40,IND,27,148
-273,Jerick McKinnon,RB,RB 67,KC,31,146
-274,2023 Late 3rd,Pick,Pick 51,-,0,145
-275,Deuce Vaughn,RB,RB 68,DAL,21,140
-276,2023 Round 3 Pick 9,Pick,Pick 52,-,0,140
-277,Jake Ferguson,TE,TE 30,DAL,24,140
-278,Bailey Zappe,QB,QB 41,NE,24,135
-279,Stetson Bennett,QB,QB 42,LAR,25,134
-280,Cade Otton,TE,TE 31,TB,24,134
-281,Mecole Hardman,WR,WR 88,NYJ,25,133
-282,Daniel Bellinger,TE,TE 32,NYG,22,130
-283,2023 Round 3 Pick 10,Pick,Pick 53,-,0,125
-284,2025 Mid 3rd,Pick,Pick 54,-,0,122
-285,Parris Campbell,WR,WR 89,NYG,25,118
-286,Kayshon Boutte,WR,WR 89,NE,21,118
-287,Tucker Kraft,TE,TE 33,GB,22,118
-288,Raheem Mostert,RB,RB 69,MIA,31,117
-289,Puka Nacua,WR,WR 91,LAR,22,115
-290,2023 Round 3 Pick 11,Pick,Pick 55,-,0,112
-291,Isaiah Spiller,RB,RB 70,LAC,21,111
-292,Zach Wilson,QB,QB 43,NYJ,23,107
-293,Tyler Scott,WR,WR 92,CHI,21,105
-294,Hayden Hurst,TE,TE 34,CAR,29,104
-295,Sean Tucker,RB,RB 71,TB,21,102
-296,2023 Round 3 Pick 12,Pick,Pick 56,-,0,101
-297,Xavier Hutchinson,WR,WR 93,HOU,23,100
-298,Darius Slayton,WR,WR 94,NYG,26,99
-299,Hunter Henry,TE,TE 35,NE,28,97
-300,2024 Late 3rd,Pick,Pick 57,-,0,97
-301,Jacoby Brissett,QB,QB 44,WAS,30,97
-302,Darnell Washington,TE,TE 36,PIT,21,95
-303,Marquez Valdes-Scantling,WR,WR 95,KC,28,94
-304,2023 Early 4th,Pick,Pick 58,-,0,93
-305,2023 Round 4 Pick 1,Pick,Pick 59,-,0,92
-306,Joshua Kelley,RB,RB 72,LAC,25,90
-307,Zach Ertz,TE,TE 37,ARI,32,85
-308,2023 Round 4 Pick 2,Pick,Pick 60,-,0,83
-309,James Robinson,RB,RB 73,NE,24,78
-310,Gus Edwards,RB,RB 74,BAL,28,77
-311,Zonovan Knight,RB,RB 75,NYJ,22,75
-312,2023 Round 4 Pick 3,Pick,Pick 61,-,0,75
-313,Cordarrelle Patterson,RB,RB 76,ATL,32,74
-314,Kyren Williams,RB,RB 77,LAR,22,72
-315,Van Jefferson,WR,WR 96,LAR,26,72
-316,Clayton Tune,QB,QB 45,ARI,24,70
-317,2023 Round 4 Pick 4,Pick,Pick 62,-,0,67
-318,2023 Mid 4th,Pick,Pick 62,-,0,67
-319,Charlie Jones,WR,WR 97,CIN,24,67
-320,Keaontay Ingram,RB,RB 78,ARI,23,66
-321,A.T. Perry,WR,WR 98,NO,23,65
-322,Allen Robinson,WR,WR 98,PIT,29,65
-323,2024 Early 4th,Pick,Pick 64,-,0,61
-324,2023 Round 4 Pick 5,Pick,Pick 64,-,0,61
-325,David Bell,WR,WR 100,CLE,22,60
-326,Mike White,QB,QB 46,MIA,28,58
-327,Greg Dortch,WR,WR 101,ARI,25,57
-328,2023 Round 4 Pick 6,Pick,Pick 66,-,0,56
-329,Chris Rodriguez,RB,RB 79,WAS,22,56
-330,Hassan Haskins,RB,RB 80,TEN,23,55
-331,Parker Washington,WR,WR 102,JAX,21,55
-332,2023 Round 4 Pick 7,Pick,Pick 67,-,0,53
-333,Tyler Conklin,TE,TE 38,NYJ,27,53
-334,Jameis Winston,QB,QB 47,NO,29,53
-335,Davis Mills,QB,QB 47,HOU,24,53
-336,Kenny McIntosh,RB,RB 81,SEA,23,52
-337,Jake Haener,QB,QB 49,NO,24,49
-338,2023 Round 4 Pick 8,Pick,Pick 68,-,0,48
-339,2023 Late 4th,Pick,Pick 68,-,0,48
-340,Robert Woods,WR,WR 103,HOU,31,47
-341,Trey Palmer,WR,WR 104,TB,22,46
-342,Devin Duvernay,WR,WR 105,BAL,25,45
-343,2023 Round 4 Pick 9,Pick,Pick 70,-,0,45
-344,Russell Gage,WR,WR 106,TB,27,44
-345,Malik Davis,RB,RB 82,DAL,24,43
-346,Taysom Hill,TE,TE 39,NO,32,43
-347,Laviska Shenault,WR,WR 107,CAR,24,43
-348,2024 Mid 4th,Pick,Pick 71,-,0,42
-349,Chase Edmonds,RB,RB 83,TB,27,41
-350,Taylor Heinicke,QB,QB 50,ATL,30,41
-351,Kyle Philips,WR,WR 108,TEN,23,41
-352,Justyn Ross,WR,WR 109,KC,23,40
-353,Brenton Strange,TE,TE 40,JAX,22,40
-354,Deneric Prince,RB,RB 84,KC,23,39
-355,2023 Round 4 Pick 10,Pick,Pick 72,-,0,39
-356,Jordan Mason,RB,RB 85,SF,24,38
-357,Albert Okwuegbunam,TE,TE 41,DEN,25,37
-358,2023 Round 4 Pick 11,Pick,Pick 73,-,0,37
-359,Tyrion Davis-Price,RB,RB 86,SF,22,37
-360,Jalen Tolbert,WR,WR 110,DAL,24,36
-361,2025 Mid 4th,Pick,Pick 74,-,0,34
-362,Ty Chandler,RB,RB 87,MIN,25,34
-363,D'Ernest Johnson,RB,RB 87,JAX,27,34
-364,Matt Corral,QB,QB 51,CAR,24,34
-365,Dontayvion Wicks,WR,WR 111,GB,21,34
-366,2023 Round 4 Pick 12,Pick,Pick 74,-,0,34
-367,Chris Evans,RB,RB 89,CIN,25,33
-368,2024 Late 4th,Pick,Pick 76,-,0,31
-369,Deon Jackson,RB,RB 90,IND,24,31
-370,Isaiah McKenzie,WR,WR 112,IND,28,31
-371,Noah Gray,TE,TE 42,KC,24,30
-372,Dorian Thompson-Robinson,QB,QB 52,CLE,23,30
-373,DeVante Parker,WR,WR 113,NE,30,28
-374,Kevin Harris,RB,RB 91,NE,22,28
-375,Zack Moss,RB,RB 92,IND,25,25
-376,Robbie Anderson,WR,WR 114,-,0,25
-377,Jarrett Stidham,QB,QB 53,DEN,26,24
-378,KJ Hamler,WR,WR 115,DEN,23,24
-379,Nyheim Hines,RB,RB 93,BUF,26,22
-380,Tutu Atwell,WR,WR 116,LAR,23,22
-381,Rico Dowdle,RB,RB 93,DAL,24,22
-382,Austin Hooper,TE,TE 43,LV,28,21
-383,Tre Tucker,WR,WR 117,LV,22,19
-384,Dyami Brown,WR,WR 117,WAS,23,19
-385,William Fuller,WR,WR 117,-,27,19
-386,Kendrick Bourne,WR,WR 120,NE,27,18
-387,Zack Kuntz,TE,TE 44,NYJ,23,18
-388,Richie James,WR,WR 121,KC,27,17
-389,Carson Wentz,QB,QB 54,-,30,17
-390,Marcus Mariota,QB,QB 54,PHI,29,17
-391,Cole Turner,TE,TE 45,WAS,23,17
-392,Durham Smythe,TE,TE 46,MIA,27,16
-393,Josh Reynolds,WR,WR 122,DET,28,16
-394,Robert Tonyan,TE,TE 46,CHI,29,16
-395,Brevin Jordan,TE,TE 48,HOU,22,15
-396,Keaton Mitchell,RB,RB 95,BAL,21,15
-397,Quez Watkins,WR,WR 123,PHI,24,14
-398,Lew Nichols,RB,RB 96,GB,21,14
-399,Elijah Higgins,TE,TE 49,MIA,22,14
-400,Noah Brown,WR,WR 124,HOU,27,13
-401,Sterling Shepard,WR,WR 124,NYG,30,13
-402,Kene Nwangwu,RB,RB 97,MIN,25,13
-403,JaMycal Hasty,RB,RB 97,JAX,26,13
-404,Cameron Latu,TE,TE 50,SF,23,13
-405,Jonnu Smith,TE,TE 51,ATL,27,12
-406,Marquez Callaway,WR,WR 126,DEN,25,12
-407,Justin Shorter,WR,WR 126,BUF,23,12
-408,Jeremy Ruckert,TE,TE 52,NYJ,22,11
-409,Latavius Murray,RB,RB 99,BUF,33,11
-410,Andy Dalton,QB,QB 56,CAR,35,11
-411,Raheem Blackshear,RB,RB 99,CAR,23,11
-412,Ronald Jones,RB,RB 99,DAL,25,11
-413,Harrison Bryant,TE,TE 52,CLE,25,11
-414,Trayveon Williams,RB,RB 99,CIN,25,11
-415,Peyton Hendershot,TE,TE 54,DAL,24,10
-416,Jauan Jennings,WR,WR 128,SF,25,10
-417,Nick Westbrook-Ikhine,WR,WR 128,TEN,26,10
-418,Brock Wright,TE,TE 55,DET,24,9
-419,Sony Michel,RB,RB 103,-,27,9
-420,DeeJay Dallas,RB,RB 103,SEA,24,9
-421,Danny Gray,WR,WR 130,SF,24,9
-422,Nelson Agholor,WR,WR 130,BAL,30,9
-423,Jamison Crowder,WR,WR 130,NYG,29,9
-424,Denzel Mims,WR,WR 133,NYJ,25,8
-425,Marvin Jones,WR,WR 133,DET,33,8
-426,Trent Sherfield,WR,WR 133,BUF,27,8
-427,Mack Hollins,WR,WR 133,ATL,29,8
-428,Deonte Harty,WR,WR 133,BUF,25,8
-429,Ben Skowronek,WR,WR 133,LAR,25,8
-430,Foster Moreau,TE,TE 56,NO,26,8
-431,Donald Parham,TE,TE 56,LAC,25,8
-432,Adam Trautman,TE,TE 56,DEN,26,8
-433,Tom Brady,QB,QB 57,-,45,8
-434,Kenyan Drake,RB,RB 105,-,29,8
-435,Melvin Gordon,RB,RB 105,-,29,8
-436,Matt Breida,RB,RB 105,NYG,28,8
-437,C.J. Uzomah,TE,TE 59,NYJ,30,7
-438,Tommy Tremble,TE,TE 59,CAR,23,7
-439,Kylen Granson,TE,TE 59,IND,25,7
-440,O.J. Howard,TE,TE 59,LV,28,7
-441,Mohamed Ibrahim,RB,RB 108,DET,24,7
-442,Samori Toure,WR,WR 139,GB,25,7
-443,Kalif Raymond,WR,WR 139,DET,28,7
-444,Justin Jackson,RB,RB 109,-,26,6
-445,Emmanuel Sanders,WR,WR 141,-,35,6
-446,Gary Brightwell,RB,RB 109,NYG,24,6
-447,Jarvis Landry,WR,WR 141,-,30,6
-448,Eno Benjamin,RB,RB 109,NO,24,6
-449,Skylar Thompson,QB,QB 58,MIA,25,5
-450,Colt McCoy,QB,QB 58,ARI,36,5
-451,Jaren Hall,QB,QB 58,MIN,25,5
-452,P.J. Walker,QB,QB 58,CHI,28,5
-453,Cooper Rush,QB,QB 58,DAL,29,5
-454,Justice Hill,RB,RB 112,BAL,25,5
-455,Tyler Badie,RB,RB 112,DEN,23,5
-456,Ke'Shawn Vaughn,RB,RB 112,TB,26,5
-457,Julius Chestnut,RB,RB 112,TEN,22,5
-458,Trey Sermon,RB,RB 112,PHI,24,5
-459,Drew Lock,QB,QB 58,SEA,26,5
-460,Teddy Bridgewater,QB,QB 58,-,30,5
-461,Mitch Trubisky,QB,QB 58,PIT,28,5
-462,Braxton Berrios,WR,WR 143,MIA,27,5
-463,Mo Alie-Cox,TE,TE 63,IND,29,5
-464,Logan Thomas,TE,TE 63,WAS,31,5
-465,Will Dissly,TE,TE 63,SEA,26,5
-466,Tylan Wallace,WR,WR 143,BAL,24,5
-467,Olamide Zaccheaus,WR,WR 143,PHI,25,5
-468,Julio Jones,WR,WR 143,-,34,5
-469,Velus Jones,WR,WR 143,CHI,26,5
-470,Equanimeous St. Brown,WR,WR 143,CHI,26,5
-471,Rakim Jarrett,WR,WR 143,TB,22,5
-472,N'Keal Harry,WR,WR 150,-,25,4
-473,Jalen Reagor,WR,WR 150,MIN,24,4
-474,Trestan Ebner,RB,RB 117,CHI,24,4
-475,Craig Reynolds,RB,RB 117,DET,26,4
-476,Boston Scott,RB,RB 117,PHI,28,4
-477,Myles Gaskin,RB,RB 117,MIA,26,4
-478,Darrell Henderson,RB,RB 117,-,25,4
-479,James Mitchell,TE,TE 66,DET,23,4
-480,Charlie Kolar,TE,TE 66,BAL,24,4
-481,Sam Ehlinger,QB,QB 66,IND,24,4
-482,Matt Ryan,QB,QB 66,-,37,4
-483,DeAndre Carter,WR,WR 150,LV,30,4
-484,Amari Rodgers,WR,WR 150,HOU,23,4
-485,Travis Homer,RB,RB 122,CHI,24,3
-486,Phillip Lindsay,RB,RB 122,-,28,3
-487,Dee Eskridge,WR,WR 154,SEA,26,3
-488,Kenny Golladay,WR,WR 154,-,29,3
-489,Ashton Dulin,WR,WR 154,IND,26,3
-490,Hunter Long,TE,TE 68,LAR,24,3
-491,Colby Parkinson,TE,TE 68,SEA,24,3
-492,Ian Thomas,TE,TE 68,CAR,26,3
-493,Bryan Edwards,WR,WR 154,NO,24,3
-494,Anthony Schwartz,WR,WR 154,CLE,22,3
-495,Carson Strong,QB,QB 68,-,23,2
-496,Ameer Abdullah,RB,RB 124,LV,29,2
-497,Tony Jones,RB,RB 124,DEN,25,2
-498,Demetric Felton,RB,RB 124,CLE,24,2
-499,Ty Johnson,RB,RB 124,-,25,2
-500,Kylin Hill,RB,RB 124,-,24,2
-501,Tony Jones,RB,RB 124,-,25,2
-502,Josiah Deguara,TE,TE 71,GB,26,2
-503,Anthony Firkser,TE,TE 71,NE,28,2
-504,Teagan Quitoriano,TE,TE 71,HOU,23,2
-505,Tre' McKitty,TE,TE 71,LAC,24,2
-506,Jacob Harris,TE,TE 71,JAX,26,2
-507,Ihmir Smith-Marsette,WR,WR 159,KC,23,2
-508,Demarcus Robinson,WR,WR 159,-,28,2
-509,A.J. Green,WR,WR 159,-,34,2
-510,Jamal Agnew,WR,WR 159,JAX,28,2
-511,Jalen Nailor,WR,WR 159,MIN,24,2
-512,Laquon Treadwell,WR,WR 159,-,27,2
-513,Tyler Johnson,WR,WR 159,LAR,24,2
-514,Erik Ezukanma,WR,WR 159,MIA,23,2
-515,Scott Miller,WR,WR 159,ATL,25,2
-516,James Proche,WR,WR 159,BAL,26,2
-517,Corey Davis,WR,WR 159,NYJ,28,2
-518,Kyle Allen,QB,QB 68,BUF,27,2
-519,Max Duggan,QB,QB 68,LAC,22,2
-520,Joshua Dobbs,QB,QB 68,CLE,28,2
-521,Benny Snell,RB,RB 130,-,25,1
-522,Mason Rudolph,QB,QB 72,PIT,27,1
-523,Kellen Mond,QB,QB 72,CLE,23,1
-524,Marlon Mack,RB,RB 130,-,27,1
-525,Ty'Son Williams,RB,RB 130,ARI,26,1
-526,Kennedy Brooks,RB,RB 130,PHI,24,1
-527,Mark Ingram,RB,RB 130,-,33,1
-528,Snoop Conner,RB,RB 130,JAX,23,1
-529,Darrynton Evans,RB,RB 130,-,24,1
-530,Mike Boone,RB,RB 130,HOU,27,1
-531,Tevin Coleman,RB,RB 130,-,29,1
-532,Abram Smith,RB,RB 130,-,24,1
-533,Dan Arnold,TE,TE 76,PHI,28,1
-534,Marquise Goodwin,WR,WR 170,CLE,32,1
-535,Jalen Guyton,WR,WR 170,LAC,25,1
-536,Shi Smith,WR,WR 170,CAR,24,1
-537,John Bates,TE,TE 77,WAS,25,0
-538,Ricky Seals-Jones,TE,TE 77,-,27,0
-539,Blake Jarwin,TE,TE 77,-,27,0
-540,Josh Oliver,TE,TE 77,MIN,26,0
-541,J.D. McKissic,RB,RB 140,-,29,0
-542,Dare Ogunbowale,RB,RB 140,HOU,29,0
-543,Giovani Bernard,RB,RB 140,-,31,0
-544,Mike Davis,RB,RB 140,-,29,0
-545,Jermar Jefferson,RB,RB 140,DET,23,0
-546,Ty Montgomery,RB,RB 140,NE,30,0
-547,Salvon Ahmed,RB,RB 140,MIA,24,0
-548,Jaret Patterson,RB,RB 140,WAS,23,0
-549,Duke Johnson,RB,RB 140,-,29,0
-550,Darrel Williams,RB,RB 140,-,27,0
-551,Dontrell Hilliard,RB,RB 140,-,28,0
-552,Rex Burkhead,RB,RB 140,-,32,0
-553,Damien Williams,RB,RB 140,-,30,0
-554,James White,RB,RB 140,-,30,0
-555,Larry Rountree,RB,RB 140,LAC,24,0
-556,Caleb Huntley,RB,RB 140,ATL,24,0
-557,Case Keenum,QB,QB 74,HOU,35,0
-558,Tyrod Taylor,QB,QB 74,NYG,33,0
-559,Chase Daniel,QB,QB 74,-,36,0
-560,Joe Flacco,QB,QB 74,-,38,0
-561,Brian Hoyer,QB,QB 74,LV,37,0
-562,Byron Pringle,WR,WR 173,-,29,0
-563,Rashard Higgins,WR,WR 173,-,28,0
-564,Dez Fitzpatrick,WR,WR 173,PIT,25,0
-565,Chris Moore,WR,WR 173,TEN,29,0
-566,Tre'Quan Smith,WR,WR 173,NO,27,0
-567,Sammy Watkins,WR,WR 173,-,29,0
-568,Tim Patrick,WR,WR 173,DEN,29,0
-569,Zach Pascal,WR,WR 173,ARI,28,0
-570,Jaelon Darden,WR,WR 173,CLE,24,0
-571,KaVontae Turpin,WR,WR 173,DAL,26,0
-572,Cole Beasley,WR,WR 173,-,34,0
-573,Lance McCutcheon,WR,WR 173,LAR,24,0
-574,Quintez Cephus,WR,WR 173,-,25,0
-575,Cedrick Wilson,WR,WR 173,MIA,27,0
-576,T.Y. Hilton,WR,WR 173,-,33,0
-577,Auden Tate,WR,WR 173,ARI,26,0
-578,James Washington,WR,WR 173,NO,27,0
-579,Randall Cobb,WR,WR 173,NYJ,32,0
-580,Jalen Wydermyer,TE,TE 77,-,22,0
-581,Brycen Hopkins,TE,TE 77,LAR,26,0
-582,Cameron Brate,TE,TE 77,-,31,0
+38,Nick Chubb,RB,RB 7,CLE,27,4383
+39,Drake London,WR,WR 13,ATL,21,4372
+40,Tony Pollard,RB,RB 8,DAL,26,4313
+41,DK Metcalf,WR,WR 14,SEA,25,4263
+42,2023 Round 1 Pick 5,Pick,Pick 7,-,0,4258
+43,Cooper Kupp,WR,WR 15,LAR,29,4244
+44,Kyle Pitts,TE,TE 3,ATL,22,4238
+45,Josh Jacobs,RB,RB 9,LV,25,4234
+46,Jaxon Smith-Njigba,WR,WR 16,SEA,21,4203
+47,Tua Tagovailoa,QB,QB 12,MIA,25,4140
+48,Austin Ekeler,RB,RB 10,LAC,28,4140
+49,C.J. Stroud,QB,QB 13,HOU,21,4093
+50,Travis Etienne,RB,RB 11,JAX,24,4022
+51,Davante Adams,WR,WR 17,LV,30,3825
+52,2023 Round 1 Pick 6,Pick,Pick 8,-,0,3801
+53,Kyler Murray,QB,QB 14,ARI,25,3751
+54,Dak Prescott,QB,QB 15,DAL,29,3742
+55,Kenneth Walker,RB,RB 12,SEA,22,3740
+56,Daniel Jones,QB,QB 16,NYG,26,3653
+57,2023 Mid 1st,Pick,Pick 9,-,0,3452
+58,Rhamondre Stevenson,RB,RB 13,NE,25,3371
+59,2023 Round 1 Pick 7,Pick,Pick 10,-,0,3355
+60,Najee Harris,RB,RB 14,PIT,25,3327
+61,Christian Watson,WR,WR 18,GB,24,3314
+62,DJ Moore,WR,WR 19,CHI,26,3282
+63,T.J. Hockenson,TE,TE 4,MIN,25,3239
+64,Javonte Williams,RB,RB 15,DEN,23,3133
+65,2024 Mid 1st,Pick,Pick 11,-,0,3086
+66,Brandon Aiyuk,WR,WR 20,SF,25,3031
+67,Jordan Addison,WR,WR 21,MIN,21,3025
+68,2023 Round 1 Pick 8,Pick,Pick 12,-,0,2995
+69,Derrick Henry,RB,RB 16,TEN,29,2989
+70,Kenny Pickett,QB,QB 17,PIT,24,2972
+71,Jahan Dotson,WR,WR 22,WAS,23,2962
+72,Jerry Jeudy,WR,WR 23,DEN,24,2777
+73,Deebo Samuel,WR,WR 24,SF,27,2768
+74,Dameon Pierce,RB,RB 17,HOU,23,2732
+75,George Pickens,WR,WR 25,PIT,22,2692
+76,2023 Round 1 Pick 9,Pick,Pick 13,-,0,2655
+77,Quentin Johnston,WR,WR 26,LAC,21,2642
+78,Calvin Ridley,WR,WR 27,JAX,28,2620
+79,2023 Late 1st,Pick,Pick 14,-,0,2598
+80,Chris Godwin,WR,WR 28,TB,27,2523
+81,J.K. Dobbins,RB,RB 18,BAL,24,2514
+82,Jared Goff,QB,QB 18,DET,28,2508
+83,2025 Mid 1st,Pick,Pick 15,-,0,2472
+84,Terry McLaurin,WR,WR 29,WAS,27,2464
+85,2023 Round 1 Pick 10,Pick,Pick 16,-,0,2362
+86,Geno Smith,QB,QB 19,SEA,32,2349
+87,Kirk Cousins,QB,QB 20,MIN,34,2319
+88,Treylon Burks,WR,WR 30,TEN,23,2312
+89,Michael Pittman,WR,WR 31,IND,25,2306
+90,Jordan Love,QB,QB 21,GB,24,2305
+91,2024 Late 1st,Pick,Pick 17,-,0,2280
+92,Diontae Johnson,WR,WR 32,PIT,26,2252
+93,Joe Mixon,RB,RB 19,CIN,26,2216
+94,Rachaad White,RB,RB 20,TB,24,2210
+95,James Cook,RB,RB 21,BUF,23,2195
+96,Zay Flowers,WR,WR 33,BAL,22,2158
+97,George Kittle,TE,TE 5,SF,29,2118
+98,Brock Purdy,QB,QB 22,SF,23,2095
+99,2023 Round 1 Pick 11,Pick,Pick 18,-,0,2091
+100,Aaron Jones,RB,RB 22,GB,28,2053
+101,Jameson Williams,WR,WR 34,DET,22,2006
+102,Miles Sanders,RB,RB 23,CAR,26,1997
+103,Amari Cooper,WR,WR 35,CLE,28,1993
+104,Dallas Goedert,TE,TE 6,PHI,28,1992
+105,Cam Akers,RB,RB 24,LAR,23,1948
+106,Christian Kirk,WR,WR 36,JAX,26,1925
+107,Aaron Rodgers,QB,QB 23,NYJ,39,1908
+108,D'Andre Swift,RB,RB 25,PHI,24,1871
+109,Pat Freiermuth,TE,TE 7,PIT,24,1868
+110,2023 Round 1 Pick 12,Pick,Pick 19,-,0,1847
+111,Dalton Kincaid,TE,TE 8,BUF,23,1836
+112,Zach Charbonnet,RB,RB 26,SEA,22,1815
+113,Marquise Brown,WR,WR 37,ARI,25,1763
+114,Gabe Davis,WR,WR 38,BUF,24,1725
+115,Russell Wilson,QB,QB 24,DEN,34,1710
+116,Alexander Mattison,RB,RB 27,MIN,24,1673
+117,2023 Round 2 Pick 1,Pick,Pick 20,-,0,1637
+118,Derek Carr,QB,QB 25,NO,32,1635
+119,Sam Howell,QB,QB 26,WAS,22,1591
+120,2023 Early 2nd,Pick,Pick 21,-,0,1576
+121,Isiah Pacheco,RB,RB 28,KC,23,1552
+122,Keenan Allen,WR,WR 39,LAC,31,1525
+123,Devon Achane,RB,RB 29,MIA,21,1525
+124,Darren Waller,TE,TE 9,NYG,30,1494
+125,2023 Round 2 Pick 2,Pick,Pick 22,-,0,1454
+126,David Montgomery,RB,RB 30,DET,25,1436
+127,Kendre Miller,RB,RB 31,NO,20,1427
+128,Alvin Kamara,RB,RB 32,NO,27,1355
+129,Mike Williams,WR,WR 40,-,31,1339
+130,Mike Williams,WR,WR 40,LAC,28,1339
+131,Mike Evans,WR,WR 42,TB,29,1319
+132,2024 Early 2nd,Pick,Pick 23,-,0,1317
+133,Mac Jones,QB,QB 27,NE,24,1290
+134,2023 Round 2 Pick 3,Pick,Pick 24,-,0,1280
+135,Elijah Moore,WR,WR 43,CLE,23,1267
+136,DeAndre Hopkins,WR,WR 44,-,30,1255
+137,Khalil Herbert,RB,RB 33,CHI,25,1232
+138,Dalvin Cook,RB,RB 34,MIN,27,1180
+139,Rashod Bateman,WR,WR 45,BAL,23,1175
+140,AJ Dillon,RB,RB 35,GB,25,1160
+141,2023 Round 2 Pick 4,Pick,Pick 25,-,0,1137
+142,Antonio Gibson,RB,RB 36,WAS,24,1117
+143,Brian Robinson,RB,RB 37,WAS,24,1091
+144,Tyler Lockett,WR,WR 46,SEA,30,1080
+145,Sam LaPorta,TE,TE 10,DET,22,1061
+146,Desmond Ridder,QB,QB 28,ATL,23,1047
+147,Roschon Johnson,RB,RB 38,CHI,22,1038
+148,Michael Mayer,TE,TE 11,LV,21,1031
+149,Evan Engram,TE,TE 12,JAX,28,1023
+150,Skyy Moore,WR,WR 47,KC,22,1019
+151,2023 Round 2 Pick 5,Pick,Pick 26,-,0,1003
+152,James Conner,RB,RB 39,ARI,28,1003
+153,Will Levis,QB,QB 29,TEN,23,988
+154,David Njoku,TE,TE 13,CLE,26,983
+155,Tank Bigsby,RB,RB 40,JAX,21,911
+156,2023 Mid 2nd,Pick,Pick 27,-,0,898
+157,2023 Round 2 Pick 6,Pick,Pick 28,-,0,888
+158,Marvin Mims,WR,WR 48,DEN,21,871
+159,Jonathan Mingo,WR,WR 49,CAR,22,866
+160,Kadarius Toney,WR,WR 50,KC,24,849
+161,Jayden Reed,WR,WR 51,GB,23,815
+162,2023 Round 2 Pick 7,Pick,Pick 29,-,0,785
+163,Courtland Sutton,WR,WR 52,DEN,27,776
+164,Matthew Stafford,QB,QB 30,LAR,35,776
+165,Tyjae Spears,RB,RB 41,TEN,21,757
+166,Josh Downs,WR,WR 53,IND,21,748
+167,2024 Mid 2nd,Pick,Pick 30,-,0,737
+168,Greg Dulcich,TE,TE 14,DEN,23,717
+169,Chigoziem Okonkwo,TE,TE 15,TEN,23,713
+170,Jaylen Warren,RB,RB 42,PIT,24,706
+171,Rashee Rice,WR,WR 54,KC,23,700
+172,2023 Round 2 Pick 8,Pick,Pick 31,-,0,693
+173,JuJu Smith-Schuster,WR,WR 55,NE,26,686
+174,Cole Kmet,TE,TE 16,CHI,24,679
+175,Tyler Allgeier,RB,RB 43,ATL,23,657
+176,Brandin Cooks,WR,WR 56,DAL,29,649
+177,Jimmy Garoppolo,QB,QB 31,LV,31,625
+178,2023 Round 2 Pick 9,Pick,Pick 32,-,0,612
+179,Nico Collins,WR,WR 57,HOU,24,609
+180,2025 Mid 2nd,Pick,Pick 33,-,0,592
+181,2023 Late 2nd,Pick,Pick 34,-,0,589
+182,Romeo Doubs,WR,WR 58,GB,23,570
+183,Jalin Hyatt,WR,WR 59,NYG,21,567
+184,Jakobi Meyers,WR,WR 60,LV,26,565
+185,Jamaal Williams,RB,RB 44,NO,28,564
+186,2023 Round 2 Pick 10,Pick,Pick 35,-,0,540
+187,Elijah Mitchell,RB,RB 45,SF,25,534
+188,Trey McBride,TE,TE 17,ARI,23,525
+189,Trey Lance,QB,QB 32,SF,23,523
+190,Darnell Mooney,WR,WR 61,CHI,25,518
+191,Chase Brown,RB,RB 46,CIN,23,516
+192,Dalton Schultz,TE,TE 18,HOU,26,510
+193,Rashaad Penny,RB,RB 47,PHI,27,509
+194,Damien Harris,RB,RB 48,BUF,26,507
+195,Hendon Hooker,QB,QB 33,DET,25,482
+196,Rondale Moore,WR,WR 62,ARI,22,478
+197,2023 Round 2 Pick 11,Pick,Pick 36,-,0,477
+198,Kenneth Gainwell,RB,RB 49,PHI,24,476
+199,Samaje Perine,RB,RB 50,DEN,27,473
+200,2024 Late 2nd,Pick,Pick 37,-,0,464
+201,Ryan Tannehill,QB,QB 34,TEN,34,459
+202,Alec Pierce,WR,WR 63,IND,23,455
+203,Luke Musgrave,TE,TE 19,GB,22,448
+204,Wan'Dale Robinson,WR,WR 64,NYG,22,441
+205,2023 Round 2 Pick 12,Pick,Pick 38,-,0,421
+206,Michael Thomas,WR,WR 65,NO,30,411
+207,Baker Mayfield,QB,QB 35,TB,28,375
+208,2023 Round 3 Pick 1,Pick,Pick 39,-,0,371
+209,Israel Abanikanda,RB,RB 51,NYJ,20,369
+210,2023 Early 3rd,Pick,Pick 40,-,0,359
+211,Juwan Johnson,TE,TE 20,NO,26,353
+212,John Metchie,WR,WR 66,HOU,22,341
+213,Cedric Tillman,WR,WR 67,CLE,23,334
+214,Devin Singletary,RB,RB 52,HOU,25,333
+215,2023 Round 3 Pick 2,Pick,Pick 41,-,0,327
+216,Donovan Peoples-Jones,WR,WR 68,CLE,24,316
+217,Isaiah Likely,TE,TE 21,BAL,23,310
+218,Zach Evans,RB,RB 53,LAR,22,308
+219,Allen Lazard,WR,WR 69,NYJ,27,300
+220,2023 Round 3 Pick 3,Pick,Pick 42,-,0,291
+221,Tyler Boyd,WR,WR 70,CIN,28,290
+222,Chase Claypool,WR,WR 71,CHI,24,288
+223,Zay Jones,WR,WR 72,JAX,28,274
+224,2024 Early 3rd,Pick,Pick 43,-,0,271
+225,Jerome Ford,RB,RB 54,CLE,23,262
+226,Odell Beckham,WR,WR 73,BAL,30,261
+227,Michael Gallup,WR,WR 74,DAL,27,256
+228,2023 Round 3 Pick 4,Pick,Pick 44,-,0,256
+229,Isaiah Hodgins,WR,WR 75,NYG,24,249
+230,DJ Chark,WR,WR 76,CAR,26,246
+231,Zamir White,RB,RB 55,LV,23,241
+232,Ezekiel Elliott,RB,RB 56,-,27,237
+233,2023 Round 3 Pick 5,Pick,Pick 45,-,0,228
+234,Rashid Shaheed,WR,WR 77,NO,24,224
+235,Jeff Wilson,RB,RB 57,MIA,27,221
+236,Jerick McKinnon,RB,RB 58,KC,31,217
+237,2023 Mid 3rd,Pick,Pick 46,-,0,217
+238,Sam Darnold,QB,QB 36,SF,25,217
+239,Jake Ferguson,TE,TE 22,DAL,24,216
+240,Noah Fant,TE,TE 23,SEA,25,204
+241,Gerald Everett,TE,TE 23,LAC,28,204
+242,2023 Round 3 Pick 6,Pick,Pick 47,-,0,203
+243,Tank Dell,WR,WR 78,HOU,23,202
+244,Michael Wilson,WR,WR 79,ARI,23,197
+245,Clyde Edwards-Helaire,RB,RB 59,KC,24,196
+246,Joshua Palmer,WR,WR 80,LAC,23,195
+247,Tyler Higbee,TE,TE 25,LAR,30,193
+248,DeWayne McBride,RB,RB 60,MIN,21,192
+249,Chuba Hubbard,RB,RB 61,CAR,23,182
+250,Curtis Samuel,WR,WR 81,WAS,26,181
+251,2023 Round 3 Pick 7,Pick,Pick 48,-,0,179
+252,Zach Wilson,QB,QB 37,NYJ,23,177
+253,Dawson Knox,TE,TE 26,BUF,26,177
+254,Kyle Trask,QB,QB 38,TB,25,175
+255,D'Onta Foreman,RB,RB 62,CHI,27,174
+256,Evan Hull,RB,RB 63,IND,22,170
+257,Irv Smith,TE,TE 27,CIN,24,168
+258,Luke Schoonmaker,TE,TE 28,DAL,24,166
+259,Adam Thielen,WR,WR 82,CAR,32,165
+260,2024 Mid 3rd,Pick,Pick 49,-,0,163
+261,Justyn Ross,WR,WR 83,KC,23,163
+262,Jelani Woods,TE,TE 29,IND,24,163
+263,2023 Round 3 Pick 8,Pick,Pick 50,-,0,161
+264,Eric Gray,RB,RB 64,NYG,23,157
+265,Hunter Renfrow,WR,WR 84,LV,27,156
+266,K.J. Osborn,WR,WR 85,MIN,25,153
+267,2023 Late 3rd,Pick,Pick 51,-,0,145
+268,Raheem Mostert,RB,RB 65,MIA,31,144
+269,2023 Round 3 Pick 9,Pick,Pick 52,-,0,144
+270,Malik Willis,QB,QB 39,TEN,24,141
+271,Deuce Vaughn,RB,RB 66,DAL,21,140
+272,Stetson Bennett,QB,QB 40,LAR,25,134
+273,Terrace Marshall,WR,WR 86,CAR,22,133
+274,2025 Mid 3rd,Pick,Pick 53,-,0,133
+275,Kareem Hunt,RB,RB 67,-,27,131
+276,2023 Round 3 Pick 10,Pick,Pick 54,-,0,128
+277,Mike Gesicki,TE,TE 30,NE,27,128
+278,Parris Campbell,WR,WR 87,NYG,25,126
+279,Khalil Shakir,WR,WR 88,BUF,23,121
+280,Tyquan Thornton,WR,WR 89,NE,22,118
+281,Kayshon Boutte,WR,WR 89,NE,21,118
+282,Tucker Kraft,TE,TE 31,GB,22,118
+283,Darius Slayton,WR,WR 91,NYG,26,116
+284,2023 Round 3 Pick 11,Pick,Pick 55,-,0,115
+285,Michael Carter,RB,RB 68,NYJ,24,115
+286,Puka Nacua,WR,WR 92,LAR,22,115
+287,2024 Late 3rd,Pick,Pick 56,-,0,105
+288,Tyler Scott,WR,WR 93,CHI,21,105
+289,2023 Round 3 Pick 12,Pick,Pick 57,-,0,104
+290,Cade Otton,TE,TE 32,TB,24,104
+291,Sean Tucker,RB,RB 69,TB,21,102
+292,Jacoby Brissett,QB,QB 41,WAS,30,101
+293,Xavier Hutchinson,WR,WR 94,HOU,23,100
+294,Bailey Zappe,QB,QB 42,NE,24,99
+295,Ty Chandler,RB,RB 70,MIN,25,97
+296,2023 Round 4 Pick 1,Pick,Pick 58,-,0,95
+297,Darnell Washington,TE,TE 33,PIT,21,95
+298,2023 Early 4th,Pick,Pick 59,-,0,94
+299,Mecole Hardman,WR,WR 95,NYJ,25,92
+300,Deon Jackson,RB,RB 71,IND,24,92
+301,Joshua Kelley,RB,RB 72,LAC,25,89
+302,Van Jefferson,WR,WR 96,LAR,26,88
+303,2023 Round 4 Pick 2,Pick,Pick 60,-,0,86
+304,Daniel Bellinger,TE,TE 34,NYG,22,82
+305,Gus Edwards,RB,RB 73,BAL,28,80
+306,Hunter Henry,TE,TE 35,NE,28,79
+307,2023 Round 4 Pick 3,Pick,Pick 61,-,0,78
+308,Kyren Williams,RB,RB 74,LAR,22,77
+309,Isaiah Spiller,RB,RB 74,LAC,21,77
+310,Marquez Valdes-Scantling,WR,WR 97,KC,28,77
+311,Leonard Fournette,RB,RB 76,-,28,76
+312,Keaontay Ingram,RB,RB 77,ARI,23,74
+313,Hayden Hurst,TE,TE 36,CAR,29,72
+314,Clayton Tune,QB,QB 43,ARI,24,70
+315,2023 Round 4 Pick 4,Pick,Pick 62,-,0,70
+316,2024 Early 4th,Pick,Pick 63,-,0,69
+317,Charlie Jones,WR,WR 98,CIN,24,67
+318,2023 Mid 4th,Pick,Pick 64,-,0,67
+319,A.T. Perry,WR,WR 99,NO,23,65
+320,2023 Round 4 Pick 5,Pick,Pick 65,-,0,64
+321,Zack Moss,RB,RB 78,IND,25,61
+322,Carson Wentz,QB,QB 44,-,30,61
+323,2023 Round 4 Pick 6,Pick,Pick 66,-,0,59
+324,Chris Rodriguez,RB,RB 79,WAS,22,56
+325,Zach Ertz,TE,TE 37,ARI,32,56
+326,Davis Mills,QB,QB 45,HOU,24,56
+327,Parker Washington,WR,WR 100,JAX,21,55
+328,Jameis Winston,QB,QB 46,NO,29,53
+329,2023 Round 4 Pick 7,Pick,Pick 67,-,0,53
+330,Kenny McIntosh,RB,RB 80,SEA,23,52
+331,Chris Evans,RB,RB 81,CIN,25,51
+332,Cordarrelle Patterson,RB,RB 82,ATL,32,49
+333,Jake Haener,QB,QB 47,NO,24,49
+334,David Bell,WR,WR 101,CLE,22,48
+335,2024 Mid 4th,Pick,Pick 68,-,0,48
+336,2023 Round 4 Pick 8,Pick,Pick 68,-,0,48
+337,2023 Late 4th,Pick,Pick 68,-,0,48
+338,Allen Robinson,WR,WR 102,PIT,29,47
+339,Tyler Conklin,TE,TE 38,NYJ,27,47
+340,Trey Palmer,WR,WR 103,TB,22,46
+341,2023 Round 4 Pick 9,Pick,Pick 71,-,0,45
+342,Greg Dortch,WR,WR 104,ARI,25,43
+343,Jalen Tolbert,WR,WR 105,DAL,24,42
+344,2023 Round 4 Pick 10,Pick,Pick 72,-,0,42
+345,Brenton Strange,TE,TE 39,JAX,22,40
+346,2023 Round 4 Pick 11,Pick,Pick 73,-,0,39
+347,Richie James,WR,WR 106,KC,27,39
+348,Deneric Prince,RB,RB 83,KC,23,39
+349,Tutu Atwell,WR,WR 107,LAR,23,37
+350,2025 Mid 4th,Pick,Pick 74,-,0,37
+351,2023 Round 4 Pick 12,Pick,Pick 74,-,0,37
+352,DeVante Parker,WR,WR 108,NE,30,36
+353,Dontayvion Wicks,WR,WR 109,GB,21,34
+354,2024 Late 4th,Pick,Pick 76,-,0,34
+355,Rico Dowdle,RB,RB 84,DAL,24,34
+356,Tyrion Davis-Price,RB,RB 84,SF,22,34
+357,Robert Woods,WR,WR 109,HOU,31,34
+358,Jordan Mason,RB,RB 86,SF,24,33
+359,Cole Turner,TE,TE 40,WAS,23,31
+360,Kyle Philips,WR,WR 111,TEN,23,30
+361,Laviska Shenault,WR,WR 111,CAR,24,30
+362,Dorian Thompson-Robinson,QB,QB 48,CLE,23,30
+363,Zonovan Knight,RB,RB 87,NYJ,22,30
+364,Devin Duvernay,WR,WR 113,BAL,25,29
+365,Noah Gray,TE,TE 41,KC,24,28
+366,Chase Edmonds,RB,RB 88,TB,27,28
+367,Tyler Huntley,QB,QB 49,BAL,25,28
+368,Albert Okwuegbunam,TE,TE 42,DEN,25,27
+369,Taysom Hill,TE,TE 43,NO,32,25
+370,Robbie Anderson,WR,WR 114,-,0,25
+371,Gardner Minshew,QB,QB 50,IND,27,22
+372,Kendrick Bourne,WR,WR 115,NE,27,21
+373,Dyami Brown,WR,WR 115,WAS,23,21
+374,Malik Davis,RB,RB 89,DAL,24,19
+375,James Robinson,RB,RB 89,NE,24,19
+376,William Fuller,WR,WR 117,-,27,19
+377,Isaiah McKenzie,WR,WR 117,IND,28,19
+378,Russell Gage,WR,WR 117,TB,27,19
+379,Tre Tucker,WR,WR 117,LV,22,19
+380,Justice Hill,RB,RB 91,BAL,25,18
+381,Josh Reynolds,WR,WR 121,DET,28,18
+382,Deonte Harty,WR,WR 121,BUF,25,18
+383,Zack Kuntz,TE,TE 44,NYJ,23,18
+384,Kene Nwangwu,RB,RB 91,MIN,25,18
+385,KJ Hamler,WR,WR 123,DEN,23,17
+386,Trayveon Williams,RB,RB 93,CIN,25,16
+387,D'Ernest Johnson,RB,RB 93,JAX,27,16
+388,Hassan Haskins,RB,RB 93,TEN,23,16
+389,Foster Moreau,TE,TE 45,NO,26,16
+390,Jeremy Ruckert,TE,TE 45,NYJ,22,16
+391,Keaton Mitchell,RB,RB 96,BAL,21,15
+392,Lew Nichols,RB,RB 97,GB,21,14
+393,Adam Trautman,TE,TE 47,DEN,26,14
+394,Elijah Higgins,TE,TE 47,MIA,22,14
+395,Sterling Shepard,WR,WR 124,NYG,30,14
+396,Mack Hollins,WR,WR 124,ATL,29,14
+397,Nick Westbrook-Ikhine,WR,WR 126,TEN,26,13
+398,Ronald Jones,RB,RB 98,DAL,25,13
+399,Kevin Harris,RB,RB 98,NE,22,13
+400,Cameron Latu,TE,TE 49,SF,23,13
+401,Jarvis Landry,WR,WR 127,-,30,12
+402,Justin Shorter,WR,WR 127,BUF,23,12
+403,Quez Watkins,WR,WR 129,PHI,24,11
+404,Velus Jones,WR,WR 129,CHI,26,11
+405,Marvin Jones,WR,WR 129,DET,33,11
+406,Ke'Shawn Vaughn,RB,RB 100,TB,26,11
+407,Austin Hooper,TE,TE 50,LV,28,11
+408,Logan Thomas,TE,TE 50,WAS,31,11
+409,Marquez Callaway,WR,WR 132,DEN,25,10
+410,JaMycal Hasty,RB,RB 101,JAX,26,10
+411,Nelson Agholor,WR,WR 132,BAL,30,10
+412,Melvin Gordon,RB,RB 101,-,29,10
+413,Noah Brown,WR,WR 132,HOU,27,10
+414,Brevin Jordan,TE,TE 52,HOU,22,10
+415,Sony Michel,RB,RB 103,-,27,9
+416,Snoop Conner,RB,RB 103,JAX,23,9
+417,Durham Smythe,TE,TE 53,MIA,27,9
+418,Raheem Blackshear,RB,RB 105,CAR,23,8
+419,Braxton Berrios,WR,WR 135,MIA,27,8
+420,Nyheim Hines,RB,RB 105,BUF,26,8
+421,Darrell Henderson,RB,RB 105,-,25,8
+422,Kenyan Drake,RB,RB 105,-,29,8
+423,Matt Breida,RB,RB 105,NYG,28,8
+424,Taylor Heinicke,QB,QB 51,ATL,30,8
+425,Marcus Mariota,QB,QB 51,PHI,29,8
+426,Tom Brady,QB,QB 51,-,45,8
+427,Ben Skowronek,WR,WR 135,LAR,25,8
+428,Trent Sherfield,WR,WR 135,BUF,27,8
+429,Mohamed Ibrahim,RB,RB 110,DET,24,7
+430,Tyler Badie,RB,RB 110,DEN,23,7
+431,Julius Chestnut,RB,RB 110,TEN,22,7
+432,Will Dissly,TE,TE 54,SEA,26,7
+433,DeeJay Dallas,RB,RB 110,SEA,24,7
+434,Kalif Raymond,WR,WR 138,DET,28,7
+435,Olamide Zaccheaus,WR,WR 138,PHI,25,7
+436,Danny Gray,WR,WR 138,SF,24,7
+437,Samori Toure,WR,WR 141,GB,25,6
+438,Justin Jackson,RB,RB 114,-,26,6
+439,Gary Brightwell,RB,RB 114,NYG,24,6
+440,Emmanuel Sanders,WR,WR 141,-,35,6
+441,Julio Jones,WR,WR 141,-,34,6
+442,Trey Sermon,RB,RB 116,PHI,24,5
+443,Latavius Murray,RB,RB 116,BUF,33,5
+444,Craig Reynolds,RB,RB 116,DET,26,5
+445,Denzel Mims,WR,WR 144,NYJ,25,5
+446,Jauan Jennings,WR,WR 144,SF,25,5
+447,Jamison Crowder,WR,WR 144,NYG,29,5
+448,Rakim Jarrett,WR,WR 144,TB,22,5
+449,Teddy Bridgewater,QB,QB 54,-,30,5
+450,P.J. Walker,QB,QB 54,CHI,28,5
+451,Jaren Hall,QB,QB 54,MIN,25,5
+452,Jarrett Stidham,QB,QB 54,DEN,26,5
+453,Andy Dalton,QB,QB 54,CAR,35,5
+454,Mike White,QB,QB 54,MIA,28,5
+455,Brock Wright,TE,TE 55,DET,24,5
+456,Mo Alie-Cox,TE,TE 55,IND,29,5
+457,C.J. Uzomah,TE,TE 55,NYJ,30,5
+458,Tommy Tremble,TE,TE 55,CAR,23,5
+459,Jonnu Smith,TE,TE 55,ATL,27,5
+460,Donald Parham,TE,TE 55,LAC,25,5
+461,Kylen Granson,TE,TE 55,IND,25,5
+462,Robert Tonyan,TE,TE 55,CHI,29,5
+463,Peyton Hendershot,TE,TE 55,DAL,24,5
+464,James Mitchell,TE,TE 64,DET,23,4
+465,Hunter Long,TE,TE 64,LAR,24,4
+466,DeAndre Carter,WR,WR 148,LV,30,4
+467,Equanimeous St. Brown,WR,WR 148,CHI,26,4
+468,Kenny Golladay,WR,WR 148,-,29,4
+469,Trestan Ebner,RB,RB 119,CHI,24,4
+470,Travis Homer,RB,RB 119,CHI,24,4
+471,Eno Benjamin,RB,RB 119,NO,24,4
+472,Myles Gaskin,RB,RB 119,MIA,26,4
+473,Ty Johnson,RB,RB 119,-,25,4
+474,Charlie Kolar,TE,TE 64,BAL,24,4
+475,Harrison Bryant,TE,TE 64,CLE,25,4
+476,Boston Scott,RB,RB 119,PHI,28,4
+477,Tony Jones,RB,RB 125,DEN,25,3
+478,Jamal Agnew,WR,WR 151,JAX,28,3
+479,Amari Rodgers,WR,WR 151,HOU,23,3
+480,Mark Ingram,RB,RB 125,-,33,3
+481,Ameer Abdullah,RB,RB 125,LV,29,3
+482,Colby Parkinson,TE,TE 68,SEA,24,3
+483,Phillip Lindsay,RB,RB 125,-,28,3
+484,Tony Jones,RB,RB 125,-,25,3
+485,Ashton Dulin,WR,WR 151,IND,26,3
+486,Anthony Schwartz,WR,WR 151,CLE,22,3
+487,Carson Strong,QB,QB 60,-,23,2
+488,Kyle Allen,QB,QB 60,BUF,27,2
+489,Matt Corral,QB,QB 60,CAR,24,2
+490,Mitch Trubisky,QB,QB 60,PIT,28,2
+491,Cooper Rush,QB,QB 60,DAL,29,2
+492,Matt Ryan,QB,QB 60,-,37,2
+493,Skylar Thompson,QB,QB 60,MIA,25,2
+494,Max Duggan,QB,QB 60,LAC,22,2
+495,Colt McCoy,QB,QB 60,ARI,36,2
+496,Drew Lock,QB,QB 60,SEA,26,2
+497,Joshua Dobbs,QB,QB 60,CLE,28,2
+498,Sam Ehlinger,QB,QB 60,IND,24,2
+499,Jaret Patterson,RB,RB 130,WAS,23,2
+500,Marlon Mack,RB,RB 130,-,27,2
+501,Larry Rountree,RB,RB 130,LAC,24,2
+502,Kylin Hill,RB,RB 130,-,24,2
+503,Demetric Felton,RB,RB 130,CLE,24,2
+504,Teagan Quitoriano,TE,TE 69,HOU,23,2
+505,Tre' McKitty,TE,TE 69,LAC,24,2
+506,Josiah Deguara,TE,TE 69,GB,26,2
+507,Ian Thomas,TE,TE 69,CAR,26,2
+508,Jacob Harris,TE,TE 69,JAX,26,2
+509,O.J. Howard,TE,TE 69,LV,28,2
+510,Bryan Edwards,WR,WR 155,NO,24,2
+511,Marquise Goodwin,WR,WR 155,CLE,32,2
+512,Laquon Treadwell,WR,WR 155,-,27,2
+513,A.J. Green,WR,WR 155,-,34,2
+514,Corey Davis,WR,WR 155,NYJ,28,2
+515,Erik Ezukanma,WR,WR 155,MIA,23,2
+516,Ihmir Smith-Marsette,WR,WR 155,KC,23,2
+517,Tylan Wallace,WR,WR 155,BAL,24,2
+518,Dee Eskridge,WR,WR 155,SEA,26,2
+519,James Proche,WR,WR 155,BAL,26,2
+520,Jalen Nailor,WR,WR 155,MIN,24,2
+521,Ty'Son Williams,RB,RB 135,ARI,26,1
+522,Mike Boone,RB,RB 135,HOU,27,1
+523,Tevin Coleman,RB,RB 135,-,29,1
+524,Kellen Mond,QB,QB 72,CLE,23,1
+525,Mason Rudolph,QB,QB 72,PIT,27,1
+526,Darrynton Evans,RB,RB 135,-,24,1
+527,Benny Snell,RB,RB 135,-,25,1
+528,Abram Smith,RB,RB 135,-,24,1
+529,Kennedy Brooks,RB,RB 135,PHI,24,1
+530,Scott Miller,WR,WR 166,ATL,25,1
+531,Shi Smith,WR,WR 166,CAR,24,1
+532,Demarcus Robinson,WR,WR 166,-,28,1
+533,Jalen Guyton,WR,WR 166,LAC,25,1
+534,KaVontae Turpin,WR,WR 170,DAL,26,0
+535,T.Y. Hilton,WR,WR 170,-,33,0
+536,Zach Pascal,WR,WR 170,ARI,28,0
+537,Chris Moore,WR,WR 170,TEN,29,0
+538,Tim Patrick,WR,WR 170,DEN,29,0
+539,Byron Pringle,WR,WR 170,-,29,0
+540,James Washington,WR,WR 170,NO,27,0
+541,Sammy Watkins,WR,WR 170,-,29,0
+542,Randall Cobb,WR,WR 170,NYJ,32,0
+543,Tyler Johnson,WR,WR 170,LAR,24,0
+544,Cedrick Wilson,WR,WR 170,MIA,27,0
+545,Dez Fitzpatrick,WR,WR 170,PIT,25,0
+546,Rashard Higgins,WR,WR 170,-,28,0
+547,Jalen Reagor,WR,WR 170,MIN,24,0
+548,Auden Tate,WR,WR 170,ARI,26,0
+549,Cole Beasley,WR,WR 170,-,34,0
+550,Jaelon Darden,WR,WR 170,CLE,24,0
+551,Lance McCutcheon,WR,WR 170,LAR,24,0
+552,N'Keal Harry,WR,WR 170,-,25,0
+553,Tre'Quan Smith,WR,WR 170,NO,27,0
+554,Quintez Cephus,WR,WR 170,-,25,0
+555,John Bates,TE,TE 75,WAS,25,0
+556,Cameron Brate,TE,TE 75,-,31,0
+557,Brycen Hopkins,TE,TE 75,LAR,26,0
+558,Anthony Firkser,TE,TE 75,NE,28,0
+559,Jalen Wydermyer,TE,TE 75,-,22,0
+560,Blake Jarwin,TE,TE 75,-,27,0
+561,Ricky Seals-Jones,TE,TE 75,-,27,0
+562,Dan Arnold,TE,TE 75,PHI,28,0
+563,Josh Oliver,TE,TE 75,MIN,26,0
+564,Caleb Huntley,RB,RB 142,ATL,24,0
+565,Jermar Jefferson,RB,RB 142,DET,23,0
+566,Giovani Bernard,RB,RB 142,-,31,0
+567,Ty Montgomery,RB,RB 142,NE,30,0
+568,Dare Ogunbowale,RB,RB 142,HOU,29,0
+569,Rex Burkhead,RB,RB 142,-,32,0
+570,James White,RB,RB 142,-,30,0
+571,Mike Davis,RB,RB 142,-,29,0
+572,Salvon Ahmed,RB,RB 142,MIA,24,0
+573,J.D. McKissic,RB,RB 142,-,29,0
+574,Damien Williams,RB,RB 142,-,30,0
+575,Dontrell Hilliard,RB,RB 142,-,28,0
+576,Duke Johnson,RB,RB 142,-,29,0
+577,Darrel Williams,RB,RB 142,-,27,0
+578,Chase Daniel,QB,QB 74,-,36,0
+579,Case Keenum,QB,QB 74,HOU,35,0
+580,Tyrod Taylor,QB,QB 74,NYG,33,0
+581,Brian Hoyer,QB,QB 74,LV,37,0
+582,Joe Flacco,QB,QB 74,-,38,0

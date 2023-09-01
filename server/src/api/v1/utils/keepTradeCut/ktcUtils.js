@@ -1,7 +1,7 @@
 require("dotenv").config()
 const puppeteer = require('puppeteer');
 
-const getKTCPlayerValues = async (path) => {
+const scrapeKTCPlayerValues = async (path) => {
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
@@ -40,4 +40,4 @@ const getKTCPlayerValues = async (path) => {
     return data;
 };
 
-module.exports = { getKTCPlayerValues };
+module.exports = { scrapeKTCPlayerValues };
