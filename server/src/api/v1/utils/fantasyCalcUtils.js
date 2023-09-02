@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const downloadFantasyCalcRankings = async () => {
+const scrapeFantasyCalcRankings = async () => {
   const scriptDirectory = __dirname;
   const tempFolder = path.join(scriptDirectory, 'temp');
 
@@ -36,14 +36,36 @@ const downloadFantasyCalcRankings = async () => {
 
     // Rename the file and change the delimiter to ','
     const csvData = fs.readFileSync(downloadedFilePath, 'utf8');
-    const convertedData = csvData.replace(/;/g, ',');
+    const cleanedData = csvData.replace(/"([^"]+)"/g, '$1');
 
+    // Change the delimiter to ','
+    const convertedData = cleanedData.replace(/;/g, ',');
+        
     fs.writeFileSync(tempFilePath, convertedData);
 
     // Remove the original downloaded file
     fs.unlinkSync(downloadedFilePath);
 
     console.log(`CSV file downloaded, converted, and saved to ${tempFilePath}`);
+
+    // Parse the CSV data and return an array of players
+    const players = [];
+
+    const lines = convertedData.split('\n');
+    if (lines.length > 1) {
+      const header = lines[0].split(',').map((field) => field.trim()); // Trim field names
+      for (let i = 1; i < lines.length; i++) {
+        const values = lines[i].split(',').map((field) => field.trim()); // Trim field values
+        const player = {};
+        for (let j = 0; j < header.length; j++) {
+          player[header[j]] = values[j];
+        }
+        players.push(player);
+      }
+    }
+
+    return players;
+
   } else {
     console.error('Downloaded file not found.');
   }
@@ -51,6 +73,4 @@ const downloadFantasyCalcRankings = async () => {
   await browser.close();
 };
 
-downloadFantasyCalcRankings().catch((error) => {
-  console.error('Error:', error);
-});
+module.exports = { scrapeFantasyCalcRankings }
