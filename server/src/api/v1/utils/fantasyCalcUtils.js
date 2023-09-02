@@ -15,13 +15,13 @@ const scrapeFantasyCalcRankings = async () => {
   const url = 'https://www.fantasycalc.com/dynasty-rankings';
 
   await page.goto(url);
-  await new Promise(resolve => setTimeout(resolve, 5000));
+  await new Promise(resolve => setTimeout(resolve, 4000));
 
   // Click the download icon
   await page.click('.download-icon');
 
   // Wait for the download to start (you can adjust the timeout as needed)
-  await new Promise(resolve => setTimeout(resolve, 5000));
+  await new Promise(resolve => setTimeout(resolve, 4000));
 
   // Assuming the downloaded file is in your system's default download directory
   const defaultDownloadPath = path.join(process.env.HOME, 'Downloads');
