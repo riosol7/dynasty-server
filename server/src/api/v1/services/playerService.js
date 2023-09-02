@@ -29,5 +29,6 @@ const queryListOfFantasyCalcRankings = async () => {
 module.exports = {
     queryListOfKTCDynastyRankings,
     queryListOfKTCPlayerValues,
+    queryListOfFantasyCalcRankings,
     queryListOfPlayers,
 }
