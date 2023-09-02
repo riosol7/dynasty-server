@@ -2,7 +2,7 @@ const path = require("path");
 const NodeCache = require("node-cache");
 const cache = new NodeCache({ stdTTL: 60 * 60 }); // Cache data for 1 hour
 const { sleeperAPI } = require("../../../../api")
-const { csvUtils, ktcUtils, pythonUtils, ktcDynasty, fantasyCalcUtils } = require("../utils")
+const { csvUtils, ktcUtils, pythonUtils, ktcDynasty, fantasyCalcUtils, superFlexUtils } = require("../utils")
 const { KTC, Player } = require("../models")
 const validPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
 
@@ -174,6 +174,22 @@ const scrapeListOfFantasyCalcRankings = async () => {
     };
 };
 
+const scrapeListOfSuperFlexRankings = async () => {
+    try {
+        let data = cache.get(`sfRankings`);
+        if(!data) {
+            data = await superFlexUtils.scrapeSuperFlexRankings();
+            cache.set(`sfRankings`, data);
+        };
+
+        return data;
+
+    } catch (error) {
+        console.error('Error in scrapeListOfFantasyCalcRankings:', error);
+        throw error;
+    };
+};
+
 module.exports = {
     fetchPlayerData,
     fetchUpdatedPlayerData,
@@ -181,4 +197,5 @@ module.exports = {
     getKTCPlayerValues,
     scrapeListOfKTCDynastyRankings,
     scrapeListOfFantasyCalcRankings,
+    scrapeListOfSuperFlexRankings,
 };

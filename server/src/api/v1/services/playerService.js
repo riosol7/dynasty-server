@@ -26,9 +26,19 @@ const queryListOfFantasyCalcRankings = async () => {
     }
 }
 
+const queryListOfSuperFlexRankings = async () => {
+    try {
+        return await playerHelpers.scrapeListOfSuperFlexRankings();
+    } catch (error) {
+        console.error('Error in queryListOfSuperFlexRankings:', error);
+        throw error;
+    }
+}
+
 module.exports = {
     queryListOfKTCDynastyRankings,
     queryListOfKTCPlayerValues,
     queryListOfFantasyCalcRankings,
+    queryListOfSuperFlexRankings,
     queryListOfPlayers,
 }

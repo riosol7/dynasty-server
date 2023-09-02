@@ -6,5 +6,6 @@ router.get("/", playerController.getPlayers);
 router.get("/ktc", playerController.getKTCDynastyRankings);
 router.get("/ktc/:path", playerController.getKTCPlayerValues);
 router.get("/fantasy_calc", playerController.getFantasyCalcRankings);
+router.get("/superFlex", playerController.getSuperFlexRankings);
 
 module.exports = router;
