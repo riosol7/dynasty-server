@@ -51,7 +51,6 @@ const scrapeSuperFlexRankings = async () => {
 
         if (nextButton) {
             await page.click('#player-values-table_next');
-            await new Promise(resolve => setTimeout(resolve, 2000));
         } else {
             break;
         }
