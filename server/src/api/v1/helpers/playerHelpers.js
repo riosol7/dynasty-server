@@ -2,7 +2,7 @@ const path = require("path");
 const NodeCache = require("node-cache");
 const cache = new NodeCache({ stdTTL: 60 * 60 }); // Cache data for 1 hour
 const { sleeperAPI } = require("../../../../api")
-const { csvUtils, ktcUtils, pythonUtils, ktcDynasty, fantasyCalcUtils, superFlexUtils } = require("../utils")
+const { csvUtils, ktcUtils, pythonUtils, ktcDynasty, fantasyCalcUtils, superFlexUtils, dynastyProcessUtils, fantasyProUtils } = require("../utils")
 const { KTC, Player } = require("../models")
 const validPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
 
@@ -190,6 +190,38 @@ const scrapeListOfSuperFlexRankings = async () => {
     };
 };
 
+const scrapeListOfDynastyProcessRankings = async () => {
+    try {
+        let data = cache.get(`dpRankings`);
+        if(!data) {
+            data = await dynastyProcessUtils.scrapeDynastyProcessRankings();
+            cache.set(`dpRankings`, data);
+        };
+
+        return data;
+
+    } catch (error) {
+        console.error('Error in scrapeListOfDynastyProcessRankings:', error);
+        throw error;
+    };
+};
+
+const scrapeListOfFantasyPro = async () => {
+    try {
+        let data = cache.get(`fantasyPro`);
+        if(!data) {
+            data = await fantasyProUtils.scrapeFantasyPro();
+            cache.set(`fantasyPro`, data);
+        };
+
+        return data;
+
+    } catch (error) {
+        console.error('Error in scrapeListOfFantasyPro:', error);
+        throw error;
+    };
+};
+
 module.exports = {
     fetchPlayerData,
     fetchUpdatedPlayerData,
@@ -198,4 +230,6 @@ module.exports = {
     scrapeListOfKTCDynastyRankings,
     scrapeListOfFantasyCalcRankings,
     scrapeListOfSuperFlexRankings,
+    scrapeListOfDynastyProcessRankings,
+    scrapeListOfFantasyPro,
 };

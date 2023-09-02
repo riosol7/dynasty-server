@@ -35,10 +35,30 @@ const queryListOfSuperFlexRankings = async () => {
     }
 }
 
+const queryListOfDynastyProcessRankings = async () => {
+    try {
+        return await playerHelpers.scrapeListOfDynastyProcessRankings();
+    } catch (error) {
+        console.error('Error in queryListOfDynastyProcessRankings:', error);
+        throw error;
+    }
+}
+
+const queryListOfFantasyPro = async () => {
+    try {
+        return await playerHelpers.scrapeListOfFantasyPro();
+    } catch (error) {
+        console.error('Error in queryListOfFantasyPro:', error);
+        throw error;
+    }
+}
+
 module.exports = {
     queryListOfKTCDynastyRankings,
+    queryListOfDynastyProcessRankings,
     queryListOfKTCPlayerValues,
     queryListOfFantasyCalcRankings,
+    queryListOfFantasyPro,
     queryListOfSuperFlexRankings,
     queryListOfPlayers,
 }
