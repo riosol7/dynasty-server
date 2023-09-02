@@ -30,7 +30,7 @@ if download_icon:
 
     # Wait for the download to complete
     while not any(fname.startswith("fantasycalc_dynasty_rankings") for fname in os.listdir()):
-        time.sleep(1)
+        time.sleep(3)
 
     # Find the downloaded file with the default name
     downloaded_file_name = [fname for fname in os.listdir() if fname.startswith("fantasycalc_dynasty_rankings")][0]

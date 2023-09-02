@@ -16,7 +16,7 @@ url = "https://www.dynastysuperflex.com/sf_values"
 driver.get(url)
 
 # Wait for the CSV button to become clickable
-wait = WebDriverWait(driver, 2)
+wait = WebDriverWait(driver, 3)
 csv_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a.dt-button.buttons-csv.buttons-html5")))
 
 if csv_button:
