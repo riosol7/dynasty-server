@@ -1,8 +1,8 @@
 require('dotenv').config();
 const csv = require('csv-parser');
 
-const fetchFantasyProData = async () => {
-  try {
+const scrapeFantasyPro = async () => {
+    try {
         const response = await fetch(process.env.FANTASY_PRO_CSV_URL || "https://raw.githubusercontent.com/dynastyprocess/data/master/files/fp_latest_weekly.csv");
 
         if (!response.ok) {
@@ -60,6 +60,7 @@ const fetchFantasyProData = async () => {
                 results.push(data);
             });
             csvStream.on('end', () => {
+                results.shift();
                 resolve();
             });
         });
@@ -72,4 +73,4 @@ const fetchFantasyProData = async () => {
     }
 };
 
-module.exports = { fetchFantasyProData };
+module.exports = { scrapeFantasyPro };

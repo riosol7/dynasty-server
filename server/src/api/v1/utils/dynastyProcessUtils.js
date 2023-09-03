@@ -28,6 +28,7 @@ const scrapeDynastyProcessRankings = async () => {
             csvStream.pipe(csv(parseOptions)).on('data', (data) => {
                 results.push(data);
             }).on('end', () => {
+                results.shift();
                 resolve();
             }).on('error', (error) => {
                 reject(error);
