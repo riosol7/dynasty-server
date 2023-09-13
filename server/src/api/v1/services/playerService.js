@@ -1,12 +1,22 @@
 const { playerHelpers } = require("../helpers");
 
 const queryListOfPlayers = async () => {
-    return await playerHelpers.fetchPlayerData();
+    try {
+        return await playerHelpers.fetchPlayerData();
+    } catch (error) {
+        console.error('Error in queryListOfPlayers:', error);
+        throw error;
+    }
 }
 
 const queryListOfKTCPlayerValues = async (path) => {
-    return await playerHelpers.getKTCPlayerValues(path);
-}
+    try {
+        return await playerHelpers.getKTCPlayerValues(path);
+    } catch (error) {
+        console.error('Error in queryListOfKTCPlayerValues:', error);
+        throw error;
+    };
+};
 
 const queryListOfKTCDynastyRankings = async () => {
     try {

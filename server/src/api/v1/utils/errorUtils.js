@@ -6,15 +6,15 @@ function handleError(res, err) {
 }
 
 const fetchWithErrorHandling = async (url) => {
-    try {
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return await response.json();
-    } catch (error) {
-      throw new Error(`API Request Failed: ${error.message}`);
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
     }
+    return await response.json();
+  } catch (error) {
+    throw new Error(`API Request Failed: ${error.message}`);
+  }
 };
 
 module.exports = { 

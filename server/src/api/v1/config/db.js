@@ -8,9 +8,9 @@ mongoose.connection.on("error", (err) =>
 mongoose.connection.on("disconnected", () => console.log("mongo disconnected"));
 
 // How to connect to the database either via heroku or locally
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1/Dynasty";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1/"
 // Connection string (we will be replacing this later with environmental variables)
-mongoose.set('strictQuery', false); // Set the strictQuery option to false
+mongoose.set('strictQuery', false);
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
