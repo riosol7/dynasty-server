@@ -24,7 +24,7 @@ const scrapeFantasyCalcRankings = async () => {
   await new Promise(resolve => setTimeout(resolve, 4000));
 
   // Assuming the downloaded file is in your system's default download directory
-  const defaultDownloadPath = path.join(process.env.HOME, 'Downloads');
+  const defaultDownloadPath = path.join(process.env.USERPROFILE || process.env.HOMEPATH, 'Downloads');
 
   // Find the downloaded file with the default name in the default download directory
   const files = fs.readdirSync(defaultDownloadPath);
