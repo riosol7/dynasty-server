@@ -19,7 +19,7 @@ const scrapeDynastyProcessRankings = async () => {
             headers: [
                 "player", "position", "team", "age", "draft_year", 
                 "ecr_1qb", "ecr_2qb", "ecr_pos", "value_1qb", 
-                "value", "scrape_date", "fp_id"
+                "value_2qb", "scrape_date", "fp_id"
             ],
             skipEmptyLines: true,
         };
