@@ -21,11 +21,6 @@ const getFantasyCalcRankings = async (req, res) => {
     return res.json(fcList);
 }
 
-const getSuperFlexRankings = async (req, res) => {
-    const sfList = await playerService.queryListOfSuperFlexRankings();
-    return res.json(sfList);
-} 
-
 const getDynastyProcessRankings = async (req, res) => {
     const dpList = await playerService.queryListOfDynastyProcessRankings();
     return res.json(dpList);
@@ -42,6 +37,5 @@ module.exports = {
     getKTCPlayerValues,
     getFantasyCalcRankings,
     getFantasyPro,
-    getSuperFlexRankings,
     getPlayers,
 };

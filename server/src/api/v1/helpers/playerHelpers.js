@@ -1,7 +1,7 @@
 const NodeCache = require("node-cache");
 const cache = new NodeCache({ stdTTL: 60 * 60 }); // Cache data for 1 hour
 const { sleeperAPI } = require("../../../../api")
-const { ktcUtils, ktcDynasty, fantasyCalcUtils, superFlexUtils, dynastyProcessUtils, fantasyProUtils } = require("../utils")
+const { ktcUtils, ktcDynasty, fantasyCalcUtils, dynastyProcessUtils, fantasyProUtils } = require("../utils")
 const validPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
 
 const filterPlayerDataFromSleeper = (playerData) => {
@@ -78,16 +78,6 @@ const scrapeListOfFantasyCalcRankings = async () => {
     return data;
 };
 
-const scrapeListOfSuperFlexRankings = async () => {
-    let data = cache.get(`sfRankings`);
-    if (!data) {
-        data = await superFlexUtils.scrapeSuperFlexRankings();
-        cache.set(`sfRankings`, data);
-    };
-
-    return data;
-};
-
 const scrapeListOfDynastyProcessRankings = async () => {
     let data = cache.get(`dpRankings`);
     if (!data) {
@@ -113,7 +103,6 @@ module.exports = {
     getKTCPlayerValues,
     scrapeListOfKTCDynastyRankings,
     scrapeListOfFantasyCalcRankings,
-    scrapeListOfSuperFlexRankings,
     scrapeListOfDynastyProcessRankings,
     scrapeListOfFantasyPro,
 };
